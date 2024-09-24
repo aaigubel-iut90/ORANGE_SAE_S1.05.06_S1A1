@@ -10,7 +10,7 @@ aaigubel-iut90 ==> Arthur Aigubelle; page histoire
 
 Noa Bigeard ==> Noa Bigeard; page social
 
-==> Ayoub Chakiri; page écologie
+Ayoubim68 ==> Ayoub Chakiri; page écologie
 
 Natan90 ==> Natan Bouche; page offres
 
