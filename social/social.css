@@ -1,0 +1,30 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: black;
+    padding-left: 8px;
+    padding: 0;
+    height: 50px;
+}
+
+header a:hover{
+    color:orange
+}
+header a{
+    color:white;
+    padding: 15px ;
+    margin-top: 15px;
+    
+}
+img{
+    height: 50px;
+    float: left;
+}
+
+body{
+    padding-left: 4px;
+}
+
