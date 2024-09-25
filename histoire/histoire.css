@@ -83,14 +83,24 @@ p {
     margin: 0 10px 10px 0;
     text-align: center;
     line-height: 40px;
-    border-radius: 50%;
+    border-radius: 10%;
     color: #ffffff;
     transition: all 0.5s ease;
+
 }
 
 .footer-col .social-links a:hover {
     color: #24262b;
     background-color: #ffffff;
+
+}
+footer .social-links a:hover{
+    translate: 0 5px;
+}
+
+
+.fb-logo{
+    background-image: url(../images/facebook-logo.png);
 }
 
 /* Section Copyright */
