@@ -27,4 +27,9 @@ img{
 body{
     padding-left: 4px;
 }
+div1 img{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+}
 
