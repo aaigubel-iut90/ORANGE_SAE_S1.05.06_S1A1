@@ -8,37 +8,36 @@ html *{
     text-align: center;
     padding: 30px;
     background-color: black;
-    margin: auto;
-  }
-  nav a{
-    margin-right: 5%;
-    text-decoration: none;
-    color: orange;
-    justify-content: space-between;
-    font-size: 20px;
-    overflow: hidden;
-  }
-  nav a img{
-    z-index: 100;
-    position:absolute;
-    margin-left: -50px;
-    margin-top: -15px;
-  }
-  nav a:hover{
-    background-color: grey;
-  }
+    padding-left: 8px;
+    padding: 0;
+    height: 50px;
+}
+
+header a:hover{
+    color:orange
+}
+header a{
+    color:white;
+    padding: 15px ;
+    margin-top: 15px;
+    
+}
 img{
     height: 50px;
     float: left;
 }
 
 body{
-    padding-left: 0px;
+    padding-left: 4px;
 }
-div img{
-    height: 200px;
+div1 img{
+    height: 250px;
     display: flex;
     justify-content: center;
+}
+
+div1 img:hover{
+transform:translate(0px , 10px) ;
 }
 
 div img:hover{
