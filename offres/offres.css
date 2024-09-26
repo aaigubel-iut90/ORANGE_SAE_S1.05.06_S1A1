@@ -55,6 +55,20 @@ nav a:hover{
   } */
 
 
+
+  .carte{
+    padding: 10px;
+    width: 200px;
+    display:inline-block;
+
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+  .offres{
+    border-bottom: 100px;
+    border-top: 100px;
+  }
+
+
   /*footer*/
 /* Footer */
 .footer {
