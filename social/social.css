@@ -1,47 +1,40 @@
 html *{
     font-family: Arial, Helvetica, sans-serif;
-  }
-  body{
+ }
+body{
     margin: 0;
-  }
-  nav{
-    text-align: center;
-    padding: 30px;
-    background-color: black;
-    padding-left: 8px;
-    padding: 0;
-    height: 50px;
 }
-
-header a:hover{
-    color:orange
+nav{
+  text-align: center;
+  padding: 30px;
+  background-color: black;
+  margin: auto;
 }
-header a{
-    color:white;
-    padding: 15px ;
-    margin-top: 15px;
-    
+nav a{
+  margin-right: 5%;
+  text-decoration: none;
+  color: orange;
+  justify-content: space-between;
+  font-size: 20px;
+  overflow: hidden;
 }
-img{
-    height: 50px;
-    float: left;
+nav a img{
+    z-index: 100;
+    position:absolute;
+    margin-left: -50px;
+    margin-top: -15px;
+}
+nav a:hover{
+   background-color: grey;
 }
 
 body{
-    padding-left: 4px;
+    padding :0px;
 }
-div1 img{
-    height: 250px;
+div .photo{
+    height: 150px;
     display: flex;
     justify-content: center;
-}
-
-div1 img:hover{
-transform:translate(0px , 10px) ;
-}
-
-div img:hover{
-transform:translate(0px , 10px) ;
 }
 body .corps{
   padding-left : 10px;
