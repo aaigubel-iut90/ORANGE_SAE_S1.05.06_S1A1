@@ -27,9 +27,7 @@ html *{
   nav a:hover{
     background-color: grey;
   }
-#texte_principal{
-  align-items: center;
-}
+
   /*footer*/
 /* Footer */
 .footer {
