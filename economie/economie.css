@@ -1,0 +1,29 @@
+html *{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body{
+    margin: 0;
+  }
+  nav{
+    text-align: center;
+    padding: 30px;
+    background-color: black;
+    margin: auto;
+  }
+  nav a{
+    margin-right: 5%;
+    text-decoration: none;
+    color: orange;
+    justify-content: space-between;
+    font-size: 20px;
+    overflow: hidden;
+  }
+  nav a img{
+    z-index: 100;
+    position:absolute;
+    margin-left: -50px;
+    margin-top: -15px;
+  }
+  nav a:hover{
+    background-color: grey;
+  }

@@ -19,7 +19,10 @@ nav a{
   overflow: hidden;
 }
 nav a img{
-  
+  z-index: 100;
+  position:absolute;
+  margin-left: -50px;
+  margin-top: -15px;
 }
 nav a:hover{
   background-color: grey;
