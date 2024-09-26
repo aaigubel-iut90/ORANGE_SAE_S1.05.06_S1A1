@@ -1,66 +1,38 @@
 /*tout le HTML*/
 html *{
-  font-family: Helvetica,Arial, sans-serif;
-}
-body{
-  margin: 0;  
-}
-::-webkit-scrollbar{
-  display: none;
-}
-
-/*barre de navigation*/
-nav{
-text-align: center;
-padding: 30px;
-background-color: black;
-margin: auto;
-}
-nav a{
-margin-right: 5%;
-text-decoration: none;
-color: orange;
-justify-content: space-between;
-font-size: 20px;
-overflow: hidden;
-}
-nav a img{
-  z-index: 100;
-  position:absolute;
-  margin-left: -50px;
-  margin-top: -15px;
-}
-nav a:hover{
- background-color: #131313;
-}
-
-/*corps principale(images)*/
-.corps{
-  margin: 40px;
-}
-.corps .photo{
-  display: flex; /*aligne horizontalement*/
-  justify-content: center;
-  gap: 50px;
-  text-align: center;
-}
-.corps .personne{
-  flex-direction: column;
-  display: flex;
-  align-items: center;
-}
-.corps .personne img{ 
-  width: 300px;
-  height: 200px;
-  border-radius: 50px;
-  object-fit: cover;/*prend la bonne dimension sans déformer l'image*/
-}
-.corps .personne p{
-  margin-top:10px; /*rajoute de l'espace entre la photo et le nom*/
-  font-size: 20px;
-}
-body.corps{
-padding-left : 10px;
+    font-family: Helvetica, Arial, sans-serif;
+  }
+  body{
+    margin: 0;
+  }
+  nav{
+    text-align: center;
+    padding: 30px;
+    background-color: black;
+    margin: auto;
+  }
+  nav a{
+    margin-right: 5%;
+    text-decoration: none;
+    color: orange;
+    justify-content: space-between;
+    font-size: 20px;
+    overflow: hidden;
+  }
+  nav a img{
+    z-index: 100;
+    position:absolute;
+    margin-left: -50px;
+    margin-top: -15px;
+  }
+  nav a:hover{
+    background-color: grey;
+  }
+    padding-left: 20px;
+    padding: 0;
+    height: 50px;
+    position: sticky;
+    top: 0px;
 }
 
 /*texte*/
