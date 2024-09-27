@@ -6,7 +6,7 @@
 
 ## Membres du groupe :
 
-Etudiant 1 : (référent du groupe) :  [Natan Bouche](mailto:natan.bouchegin@edu.univ-fcomte.fr?subject=SAE_1_05_06) ; effectue la page offres, pseudo github Natan90
+Etudiant 1 : (référent du groupe) :  [Natan Bouche](mailto:natan.bouchegin@edu.univ-fcomte.fr?subject=SAE_1_05_06) ; effectue la page offres, pseudo github Natan90 <br>
 Etudiant 2 : [Aigubelle Arthur](mailto:aigubelle.arthur@edu.univ-fcomte.fr?subject=SAE_1_05_06) ; effectue la page histoire, pseudo github aaigubel-iut90
 Etudiant 3 : [Noa Bigeard](mailto:noa.bigeard@edu.univ-fcomte.fr?subject=SAE_1_05_06) ; effectue la page social, pseudo github NoaBigeard
 Etudiant 4 : [Ayoub Chakiri](mailto:ayoub.chakiri@edu.univ-fcomte.fr?subject=SAE_1_05_06) ; effectue la page écologie, pseudo github Ayoubim68
