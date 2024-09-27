@@ -1,25 +1,3 @@
-ORANGE_SAE_S1.05.06_S1A1 
-Projet de présentation de l'entreprise Orange
-
-https://aaigubel-iut90.github.io/ORANGE_SAE_S1.05.06_S1A1/
-
-
-Membres et parties :
-
-aaigubel-iut90 ==> Arthur Aigubelle; page histoire
-
-Noa Bigeard ==> Noa Bigeard; page social
-
-Ayoubim68 ==> Ayoub Chakiri; page écologie
-
-Natan90 ==> Natan Bouche; page offres
-
-Emmaleva ==> Emmanuel Levard; page économie
-
-Imperial-py : ancien compte de Emmanuel Levard, a ignorer
-
-
-
 # Inforange : site web de présentation de l'entreprise orange
 
 ## Sujet    
@@ -28,12 +6,16 @@ Imperial-py : ancien compte de Emmanuel Levard, a ignorer
 
 ## Membres du groupe :
 
-Etudiant 1 : (référent du groupe) :  [Natan Bouche](mailto:natan.bouchegin@edu.univ-fcomte.fr?subject=SAE_1_05_06)
-Etudiant 2 : [Aigubelle Arthur](mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06)   
-Etudiant 3 : [Nom](mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
-Etudiant 4 : [Nom](mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06)  
-Etudiant 5 : [Nom](mailto:login@edu.univ-fcomte.fr?subject=SAE_1_05_06) 
+Etudiant 1 : (référent du groupe) :  [Natan Bouche](mailto:natan.bouchegin@edu.univ-fcomte.fr?subject=SAE_1_05_06) ; effectue la page offres, pseudo github Natan90
+Etudiant 2 : [Aigubelle Arthur](mailto:aigubelle.arthur@edu.univ-fcomte.fr?subject=SAE_1_05_06) ; effectue la page histoire, pseudo github aaigubel-iut90
+Etudiant 3 : [Noa Bigeard](mailto:noa.bigeard@edu.univ-fcomte.fr?subject=SAE_1_05_06) ; effectue la page social, pseudo github NoaBigeard
+Etudiant 4 : [Ayoub Chakiri](mailto:ayoub.chakiri@edu.univ-fcomte.fr?subject=SAE_1_05_06) ; effectue la page écologie, pseudo github Ayoubim68
+Etudiant 5 : [Emmanuel Levard](mailto:emmanuel.levard@edu.univ-fcomte.fr?subject=SAE_1_05_06) ; effectue la page économie, pseudo github Emmaleva
+
+Le compte github "Imperial-py" dans les contributeurs est l'ancien compte de Emmanuel Levard, utilisé avant qu'une consigne soit émise a propos des noms des comptes github. Il est a ignorer
 
 # Présentation du projet
 
-...... (5/6 lignes)
+Il s'agit d'un site web avec pour objectif de présenter l'entreprise Orange
+Il contient une page histoire, une page offres,une page économie, un page écologie et une page social.
+Il contiendra dans le futur un formulaire de contact ainsi que la possibilité de télécharger un rapport économique et/ou écologique sur l'entreprise Orange.
