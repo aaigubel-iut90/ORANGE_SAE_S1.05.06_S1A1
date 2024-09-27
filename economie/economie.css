@@ -27,7 +27,21 @@ html *{
   nav a:hover{
     background-color: grey;
   }
-
+#texte_principal{
+  text-align: center;
+  align-items: center;
+}
+#texte_principal h1{
+  text-align: center;
+  border: 1px solid;
+  border-left-width: 0px;
+  border-width: 2px;
+  text-decoration-color: #f27900;
+  text-rendering: auto;
+  text-decoration:underline;
+  text-decoration-thickness: 2px;
+  border-color: #ec8507;
+}
   /*footer*/
 /* Footer */
 .footer {
