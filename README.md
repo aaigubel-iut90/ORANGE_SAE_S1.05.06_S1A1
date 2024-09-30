@@ -7,23 +7,23 @@
 
 ## Membres du groupe :
 <br>
-Etudiant 1 : (référent du groupe) :  [Natan Bouche](mailto:natan.bouchegin@edu.univ-fcomte.fr?subject=SAE_1_05_06)<br>
+Etudiant 1 : (référent du groupe) :  [Natan Bouche](mailto:natan.bouchegin@edu.univ-fcomte.fr?subject=SAE_1_05_06) <br>
 effectue la page offres<br>
 pseudo github Natan90 <br>
 <br>
-Etudiant 2 : [Aigubelle Arthur](mailto:aigubelle.arthur@edu.univ-fcomte.fr?subject=SAE_1_05_06)<br>
+Etudiant 2 : [Aigubelle Arthur](mailto:aigubelle.arthur@edu.univ-fcomte.fr?subject=SAE_1_05_06) <br>
 effectue la page histoire<br>
 pseudo github aaigubel-iut90 <br>
 <br>
-Etudiant 3 : [Noa Bigeard](mailto:noa.bigeard@edu.univ-fcomte.fr?subject=SAE_1_05_06)<br>
+Etudiant 3 : [Noa Bigeard](mailto:noa.bigeard@edu.univ-fcomte.fr?subject=SAE_1_05_06) <br>
 effectue la page social<br>
 pseudo github NoaBigeard <br>
 <br>
-Etudiant 4 : [Ayoub Chakiri](mailto:ayoub.chakiri@edu.univ-fcomte.fr?subject=SAE_1_05_06)<br>
+Etudiant 4 : [Ayoub Chakiri](mailto:ayoub.chakiri@edu.univ-fcomte.fr?subject=SAE_1_05_06) <br>
 effectue la page écologie<br>
 pseudo github Ayoubim68 <br>
 <br>
-Etudiant 5 : [Emmanuel Levard](mailto:emmanuel.levard@edu.univ-fcomte.fr?subject=SAE_1_05_06)<br>
+Etudiant 5 : [Emmanuel Levard](mailto:emmanuel.levard@edu.univ-fcomte.fr?subject=SAE_1_05_06) <br>
 effectue la page économie<br>
 pseudo github Emmaleva <br>
 <br><br>
