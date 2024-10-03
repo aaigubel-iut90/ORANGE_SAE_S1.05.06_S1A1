@@ -42,6 +42,25 @@ html *{
   text-decoration-thickness: 2px;
   border-color: #ec8507;
 }
+#texte_principal table{
+  margin: auto;
+  border: 1px solid;
+  border-width: 2px;
+  text-decoration-color: #f27900;
+  border-color: #ec8507;
+}
+#texte_principal th{
+  border: 1px solid;
+  border-width: 2px;
+  border-color: #ff8c00;
+}
+#container_graphique{
+  align-content: center;
+  margin-left: calc(25%);
+  margin-right: calc(25%);
+  width: min-content;
+  background-color: #ec8507;
+}
   /*footer*/
 /* Footer */
 .footer {
