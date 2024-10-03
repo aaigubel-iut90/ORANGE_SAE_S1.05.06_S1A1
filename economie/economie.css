@@ -32,14 +32,17 @@ html *{
   align-items: center;
 }
 #texte_principal h1{
-  text-align: center;
   border: 1px solid;
+  margin-left: auto;
+  width:fit-content;
+  margin-right: auto;
   border-left-width: 0px;
-  border-width: 2px;
+  border-width: 4px;
   text-decoration-color: #f27900;
   text-rendering: auto;
   text-decoration:underline;
   text-decoration-thickness: 2px;
+  background-color:#ec8507 ;
   border-color: #ec8507;
 }
 #texte_principal table{
