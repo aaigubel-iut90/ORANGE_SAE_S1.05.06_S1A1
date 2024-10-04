@@ -1,5 +1,5 @@
 let pos=0;
-array_name = ["../images/Orange_se_retire_bourse_NY_figaro.webp","../images/img_test_foo.png"];     
+array_name = ["../images/Orange_se_retire_bourse_NY_figaro.webp","../images/logo_orange_batiment.jpg"];     
 function swap_image(index_change){
     pos=pos+index_change;
     image=document.getElementById("image_liste");
