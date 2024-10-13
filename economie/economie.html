@@ -75,7 +75,45 @@
             </tr>
         </table>
         Orange a récemment annoncé son retrait de la bourse du New York Stock Exchange.<br>
-        La valeure en bourse d'Orange n'a cessé de chutter sur les 5 dernières années jusqu'a perdre 27,43% de leur valeure.<br>
+        La valeure en bourse d'Orange n'a cessé de chutter sur les 5 dernières années jusqu'a perdre 27,43% de leur valeur.<br>
+
+        <br>
+        <br>
+        <div id="api_results_holder">
+
+        </div>
+
+        <script>
+
+
+            function load(url, callback) {
+            const xhr = new XMLHttpRequest();
+    
+            xhr.onreadystatechange = () => {
+                if (xhr.readyState === 4) {
+                callback(xhr.response);
+                }
+            };
+    
+            xhr.open("GET", "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=ORA-FR&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json&events=1",true);
+    
+            xhr.send("");
+            }
+            function inserter(result){
+                let rs_js=JSON.parse(result);
+                //document.write('<div>Price of Orange : Close -  ' + result+ '</div>');
+                
+                const element = document.getElementById("api_results_holder");
+                let nom=document.createElement("p");
+                let valeur_actuelle=document.createElement("p");
+                nom.innerHTML="Nom de bourse: "+rs_js.FormattedQuoteResult.FormattedQuote[0].symbol;
+                valeur_actuelle.innerHTML="Dernier prix d'action : "+rs_js.FormattedQuoteResult.FormattedQuote[0].last;
+                element.appendChild(nom);
+                element.appendChild(valeur_actuelle);
+                //document.write('<div>Price of Orange : Close -  ' + rs_js.FormattedQuoteResult.FormattedQuote[0].symbol+ '</div>');
+            };
+            load("",inserter);
+        </script>
         
 
     </p>
