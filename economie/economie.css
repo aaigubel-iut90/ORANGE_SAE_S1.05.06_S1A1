@@ -4,6 +4,10 @@ html *{
   body{
     margin: 0;
   }
+  body a{
+    color: #000000;
+    text-decoration: none;
+  }
   nav{
     text-align: center;
     padding: 30px;
