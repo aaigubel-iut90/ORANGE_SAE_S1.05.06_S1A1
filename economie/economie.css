@@ -36,6 +36,7 @@ html *{
   align-items: center;
 }
 #api_results_holder{
+  border:1px solid black;
   width:fit-content;
   background-color: #f27900;
   border-width: 5px;
