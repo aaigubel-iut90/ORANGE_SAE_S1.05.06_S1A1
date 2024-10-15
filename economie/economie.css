@@ -35,6 +35,15 @@ html *{
   text-align: center;
   align-items: center;
 }
+#api_results_holder{
+  width:fit-content;
+  background-color: #f27900;
+  border-width: 5px;
+  margin: auto;
+  border-color:#ff8c00;
+  text-align: auto;
+  align-self: auto;
+}
 #texte_principal h1{
   border: 1px solid;
   margin-left: auto;
