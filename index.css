@@ -68,7 +68,6 @@ nav{
     color: white;
     font-size: 50px;
     margin-top: 200px;
-    z-index: 2;
 
 
     width: 50%;
@@ -82,7 +81,6 @@ nav{
     margin-top: 10px;
     color: white;
     font-size: 25px;
-    z-index: 2;
   }
   .accueil{
     z-index: 3;
@@ -94,7 +92,6 @@ nav{
   .titre-suite-accueil{
     color: black;
     font-size: 25px;
-    z-index: 2;
     margin-top: 90vh;
     background-color: white;
     padding: 20px;
@@ -111,8 +108,6 @@ nav{
     align-items: center;
   }
   .suite-accueil{
-    
-    z-index: 3;
     position: absolute;
     top: 110vh;
     width: 50%;
@@ -129,7 +124,6 @@ nav{
     border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 20px;
-    z-index: 2;
     background-color: white;
   }
   .titre-page{
@@ -137,6 +131,116 @@ nav{
     padding-bottom: 10px;
     font-size: 20px;
   }
+
+
+  /* Footer */
+.footer {
+    background-color: #f27900;
+    padding: 70px 0;
+    width: 100vw; 
+    margin-left: calc(50% - 50vw);
+    margin-top: 150vh;
+}
+
+.footer-col {
+    width: 25%;
+    padding: 0 15px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-col h4 {
+    font-size: 18px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col h4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #000000;
+    height: 2px;
+    box-sizing: border-box;
+    width: 200px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 8px;
+}
+
+.footer-col .social-links a {
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(57, 33, 33, 0.2);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+
+.footer-col .social-links a:hover {
+    color: #24262b;
+    background-color: #ffffff;
+}
+
+/* Section Copyright */
+.copyright {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-top: 20px; 
+    padding: 10px 0; 
+}
+
+.copyright h5 {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* Responsive */
+@media (max-width: 767px) {
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 574px) {
+    .footer-col {
+        width: 100%;
+    }
+}
+
+/* Centre le texte du menu */
+.menu-4 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
 
 
 
