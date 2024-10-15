@@ -1,44 +1,142 @@
-/* Mise en forme globale */
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+html *{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+}
+::-webkit-scrollbar-thumb {
+    background: #FF0000;
+}
+body{
     margin: 0;
     padding: 0;
-    text-align: center;
-}
+    overflow-x: hidden;
+    background-color: white;   
 
-/* Style du titre */
-h1 {
-    color: #ff6600; /* Couleur orange rappelant le logo */
-    margin-top: 50px;
-    font-size: 2.5em;
 }
-
-/* Style des liens */
-a {
-    display: inline-block;
-    margin: 10px 0;
-    font-size: 1.2em;
-    color: #333;
-    text-decoration: none;
-    border: 1px solid #ff6600;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-a:hover {
-    background-color: #ff6600;
-    color: #fff;
-}
-
-/* Style du footer */
-footer {
-    margin-top: 50px;
-    padding: 20px;
-    background-color: #333;
-    color: #fff;
-    position: fixed;
+.background-img{
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    bottom: 0;
+    height: 130vh;
+    z-index: -1;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/images/orange-accueil.webp');	
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
+
+/* BARRE DE NAVIGATION */
+
+nav{
+    text-align: center;
+    padding: 30px;
+    background-color: transparent;
+    margin: auto;
+  }
+  nav a{
+    text-decoration: none;
+    color: orange;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-right: 50px;
+
+  }
+  nav a img{
+    z-index: 100;
+    position:absolute;
+    margin-left: -50px;
+    margin-top: -15px;
+  }
+  nav a:hover{
+    background-color: grey;
+  }
+
+  /* CORPS DE PAGE */
+
+  h1{
+    margin: auto;
+    text-align: left;
+    color: white;
+    font-size: 50px;
+    margin-top: 200px;
+    z-index: 2;
+
+
+    width: 50%;
+  }
+  h2{
+    text-align: left;
+    margin: auto;
+    border-top: 2px solid orange;
+    padding-top: 10px;
+    width: 50%;
+    margin-top: 10px;
+    color: white;
+    font-size: 25px;
+    z-index: 2;
+  }
+  .accueil{
+    z-index: 3;
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .titre-suite-accueil{
+    color: black;
+    font-size: 25px;
+    z-index: 2;
+    margin-top: 90vh;
+    background-color: white;
+    padding: 20px;
+    width: 50%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+
+  }
+  .titre-suite-accueil h2{
+    text-align: left;
+    display: flex;
+    align-items: center;
+  }
+  .suite-accueil{
+    
+    z-index: 3;
+    position: absolute;
+    top: 110vh;
+    width: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+
+
+  }
+  .carte-page-accueil{
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    z-index: 2;
+    background-color: white;
+  }
+  .titre-page{
+    border-bottom: 2px solid orange;
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+
+
+
