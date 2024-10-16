@@ -22,7 +22,9 @@
     <h1>Orange à travers des chiffres</h1>
     <span style="display: block;align-content: stretch;">
         <button style="width: 80px;height: 80px;transform: rotate(-45deg);border-width: 6px 0 0 6px;background-color: rgba(0, 0, 0, 0);vertical-align: middle;" onclick="swap_image(-1)"></button>
-        <img id="image_liste" onclick="" src="../images/Orange_se_retire_bourse_NY_figaro.webp" width="200" height="100" alt="Orange se retire de la bourse de New York" style="vertical-align: middle;">
+        
+        <img id="image_liste" onclick="redirect_clic_image()" src="../images/Orange_se_retire_bourse_NY_figaro.webp" width="200" height="100" alt="Orange se retire de la bourse de New York" style="vertical-align: middle;">
+        
         <button style="width: 80px;height: 80px;transform: rotate(135deg);border-width: 6px 0 0 6px;background-color: rgba(0, 0, 0, 0);vertical-align: middle;" onclick="swap_image(1)"></button>
     </span>
     <br>
@@ -92,7 +94,7 @@
     <br>
     <div id="container_graphique">
         <h3>Cours des actions d'Orange sur les 6 derniers mois</h3>
-        <img src="../images/Actions_valeur_6_mois.png" width="500" height="300" alt="Cours des actions d'Oranges sur les 6 derniers mois">
+        <img src="../images/Actions_valeur_6_mois.png" onclick="redirect_clic_image()" width="500" height="300" alt="Cours des actions d'Oranges sur les 6 derniers mois">
     </div>
 
 
