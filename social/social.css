@@ -1,9 +1,13 @@
 /*tout le HTML*/
 html *{
-  
+  font-family: Arial, Helvetica, sans-serif;
+
 }
 body{
-  margin: 0;  
+  margin: 0; 
+  background-image:url(../images/salariesorange.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 ::-webkit-scrollbar{
   display: none;
@@ -44,23 +48,72 @@ nav a:hover{
   gap: 50px;
   text-align: center;
 }
-.corps .personne{
-  flex-direction: column;
+
+.corps .photo {
+  flex-direction: row;
   display: flex;
   align-items: center;
 }
-.corps .personne img{ 
+.corps .photo img{ 
   width: 300px;
   height: 200px;
   border-radius: 50px;
   object-fit: cover;/*prend la bonne dimension sans déformer l'image*/
 }
-.corps .personne p{
+.corps .photo p{
   margin-top:10px; /*rajoute de l'espace entre la photo et le nom*/
   font-size: 20px;
 }
-body.corps{
+body .corps{
 padding-left : 10px;
+}
+
+.JF{
+  position: relative;
+  overflow: hidden;
+}
+.checkbox {
+  display: none;
+  position: absolute;
+}
+
+.JF, .ET {
+  flex-direction: column;
+  display: flex;
+  border: solid 2px;
+  padding: 20px;
+  border-radius: 50px;
+  align-items: center;
+  position: relative;
+  width: 300px; 
+  height: auto; 
+}
+
+.plusTexte {
+  display: none; 
+  margin-top: 10px; 
+  text-align: center;
+}
+
+.checkbox:checked + label + .plusTexte {
+  display: block;
+}
+
+
+.savoir{
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  display: inline-block;
+}
+
+.savoir:hover{
+  background-color: darkorange;
 }
 
 /*texte*/
@@ -116,12 +169,15 @@ div .texte-4{
 }
 
 div .texte-1, div .texte-3 {
-  align-self: flex-start; 
+  margin-right: auto;
+  margin-left: 100px;
 }
 
 div .texte-2, div .texte-4 {
-  align-self: flex-end; 
+  margin-left: auto;
+  margin-right: 100px;
 }
+
 
 /*footer*/
 .footer {
@@ -208,6 +264,7 @@ font-size: 14px;
 line-height: 1.5;
 margin: 0;
 }
+
 
 /* Responsive */
 @media (max-width: 767px) {
