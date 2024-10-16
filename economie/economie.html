@@ -20,7 +20,7 @@
 <script src="economie.js"></script>
 <div id="texte_principal">
     <h1>Orange à travers des chiffres</h1>
-    <span style="display: block;align-content: stretch;">
+    <span >
         <button id="left_button" onclick="swap_image(-1)"></button>
         
         <img id="image_liste" onclick="redirect_clic_image()" src="../images/Orange_se_retire_bourse_NY_figaro.webp" width="200" height="100" alt="Orange se retire de la bourse de New York" style="vertical-align: middle;">
@@ -86,6 +86,29 @@
 
         </div>
 
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+        <script>
+        function load_graph(url, callback) {
+            const xhr = new XMLHttpRequest();
+
+            xhr.onreadystatechange = () => {
+                if (xhr.readyState === 4) {
+                callback(xhr.response);
+                }
+            };
+
+            xhr.open("GET", "https://orange.mdgms.com/chart_hs/json.php",true);
+
+            xhr.send("");
+        }
+        function test(resultat){
+            console.log("passé");
+            console.log(resultat);
+
+        }
+        document.domain = "google.com";
+        load_graph("",test)
+        </script>
 
         
 
