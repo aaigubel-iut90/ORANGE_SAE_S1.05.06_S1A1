@@ -82,7 +82,7 @@ html *{
   /*footer*/
 /* Footer */
 .footer {
-  background-color: #f27900;
+  background:linear-gradient(orange, brown);
   padding: 70px 0;
   width: 100vw; /* Prend 100% de la largeur de l'écran */
   margin-left: calc(50% - 50vw); /* Centre le footer pour compenser */
