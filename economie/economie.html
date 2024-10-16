@@ -86,30 +86,6 @@
 
         </div>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
-        <script>
-        function load_graph(url, callback) {
-            const xhr = new XMLHttpRequest();
-
-            xhr.onreadystatechange = () => {
-                if (xhr.readyState === 4) {
-                callback(xhr.response);
-                }
-            };
-
-            xhr.open("GET", "https://orange.mdgms.com/chart_hs/json.php",true);
-
-            xhr.send("");
-        }
-        function test(resultat){
-            console.log("passé");
-            console.log(resultat);
-
-        }
-        document.domain = "https://aaigubel-iut90.github.io/ORANGE_SAE_S1.05.06_S1A1";
-        load_graph("",test)
-        </script>
-
         
 
     </p>
