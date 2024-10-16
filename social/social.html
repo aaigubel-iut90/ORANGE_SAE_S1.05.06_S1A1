@@ -99,6 +99,35 @@
         </div>
     </div>
     <br>
+    <script>
+        // Fonction pour vérifier si un élément est visible dans la fenêtre
+        function checkVisibility() {
+          const elements = document.querySelectorAll('.texte-1, .texte-2, .texte-3, .texte-4');
+          
+          elements.forEach(element => {
+            const position = element.getBoundingClientRect().top; // Position de l'élément par rapport à la fenêtre
+            const windowHeight = window.innerHeight;
+      
+            if (position < windowHeight * 0.8 && position > windowHeight * 0.2) {
+              element.classList.add('visible');
+            } else {
+              element.classList.remove('visible');
+            }
+          });
+        }
+      
+        // Initialisation : ajouter la classe hidden à tous les textes au départ
+        document.querySelectorAll('.texte-1, .texte-2, .texte-3, .texte-4').forEach(element => {
+          element.classList.add('hidden');
+        });
+      
+        // Vérifie la visibilité à chaque défilement
+        window.addEventListener('scroll', checkVisibility);
+      
+        // Vérifie la visibilité au chargement initial de la page
+        window.addEventListener('load', checkVisibility);
+      </script>
+      
 <div class="copyright">
   <h5>Page faite par Bigeard Noa</h5>
 </div>
