@@ -99,7 +99,7 @@ html *{
   /*footer*/
 /* Footer */
 .footer {
-  background:linear-gradient(rgb(251, 177, 40), rgb(154, 121, 1));
+  background:linear-gradient( #f27900,rgb(251, 177, 40));
   padding: 70px 0;
   width: 100vw; /* Prend 100% de la largeur de l'écran */
   margin-left: calc(50% - 50vw); /* Centre le footer pour compenser */
