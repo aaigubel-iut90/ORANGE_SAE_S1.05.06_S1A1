@@ -36,12 +36,12 @@ html *{
   align-items: center;
 }
 #api_results_holder{
-  border:1px solid black;
+  border:1px solid;
   width:fit-content;
-  background-color: #f27900;
+  background-color:#ff8c00 ;
   border-width: 5px;
   margin: auto;
-  border-color:#ff8c00;
+  border-color:#e17101;
   text-align: auto;
   align-self: auto;
 }
