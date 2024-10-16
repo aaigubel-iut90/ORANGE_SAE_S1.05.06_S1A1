@@ -58,6 +58,9 @@ html *{
   background-color:#ec8507 ;
   border-color: #ec8507;
 }
+#image_liste:hover{
+  cursor: pointer;
+}
 #texte_principal table{
   margin: auto;
   border: 1px solid;
