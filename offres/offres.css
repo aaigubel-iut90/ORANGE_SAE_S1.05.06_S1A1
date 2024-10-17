@@ -1,8 +1,20 @@
 html *{
   font-family: Arial, Helvetica, sans-serif;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0;
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #FF0000;
 }
 body{
   margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: white;
 }
 nav{
   text-align: center;
@@ -27,51 +39,85 @@ nav a img{
 nav a:hover{
   background-color: grey;
 }
+/* CORPS DE PAGE */
 
+.texte-descri{
+  padding: 20px;
+  width: 70%;
+  margin: auto;
+  color: orange;
+  font-size: 20px;
+  text-align: left;
+  color: black;
+  font-size: 20px;
 
-
-/* a {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    text-align: center;
-    justify-content: center;
-    margin: auto;
-    align-items: center;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  a {
-    display: block;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  } */
-
-
-
+}
   .carte{
-    padding: 10px;
+    padding: 20px;
     width: 200px;
-    display:inline-block;
 
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border: 2px solid orange;
+    
+    margin: 10px;
+    text-align: left;
+    color: orange;
+    font-size: 15px;
+    
+
+
+
   }
   .offres{
     border-bottom: 100px;
     border-top: 100px;
+    display: flex;
+    background-color: black;
+    justify-content: center;
+    padding: 30px;
+    width: 70%;
+    margin: auto;
   }
+  .background-img{
+    background-image: url('/images/tour-tel.avif');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20vh;
+    width: 70%;
+    padding: 30px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .titre-cybersecu{
+    color: black;
+    font-size: 30px;
+    text-align: center;
+    margin: auto;
+  }
+  .cybersecu{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    width: 70%;
+    margin: auto;
+  }
+  .carte-cybersecu{
+    padding: 20px;
+    width: 200px;
+    background-color: white;
+    margin: 10px;
+    text-align: left;
+    font-size: 15px;
+  }
+  .men
 
 
   /*footer*/
 /* Footer */
 .footer {
+  margin-top: 20px;
   background-color: #f27900;
   padding: 70px 0;
   width: 100vw; /* Prend 100% de la largeur de l'écran */

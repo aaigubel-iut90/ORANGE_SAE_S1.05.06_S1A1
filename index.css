@@ -41,18 +41,21 @@ nav{
     padding: 30px;
     background-color: transparent;
     margin: auto;
+    width: 50%;
   }
   nav a{
     text-decoration: none;
     color: orange;
-    justify-content: space-between;
+    justify-content:space-between;
+    
     font-size: 20px;
-    margin-right: 50px;
+    margin-right:50px;
     z-index: 10;
+    width: 100%;
 
   }
   nav a img{
-    z-index: 100;
+    z-index: 1;
     position:absolute;
     margin-left: -50px;
     margin-top: -15px;
