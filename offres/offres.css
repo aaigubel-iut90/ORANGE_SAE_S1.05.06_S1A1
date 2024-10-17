@@ -39,6 +39,16 @@ nav a img{
 nav a:hover{
   background-color: grey;
 }
+.boutton_en {
+  text-align: end;
+  margin-top :-27px;
+  font-size: 24px;
+}
+.boutton_fr  {
+  text-align: end;
+  margin-top :-27px;
+  font-size: 24px;
+}
 /* CORPS DE PAGE */
 
 .titre-page{
