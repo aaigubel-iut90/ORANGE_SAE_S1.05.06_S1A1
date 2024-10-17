@@ -16,8 +16,8 @@
         <a href="../ecologie/ecologie.html">Ecologie</a>
         <a href="../economie/economie.html">Economie</a>
         <a href="../social/social.html">Social</a>
+        
 </nav>
-    <br>
     <div class="corps">
         <div class="photo">
             <div class="JF">
@@ -43,25 +43,25 @@
         <div class="texte-1">
             <p><i>Jean-François FALLACHER </i>est le CEO actuel d'Orange depuis le 3 avril 2023, cependant à partir<br>
                 de 2011 il fut désigné comme CEO des groupes d'orange dans de nombreux pays comme la Roumanie en<br>
-                2011, Pologne en 2016 ou encore Espagne en 2020.</p><br>
+                2011, Pologne en 2016 ou encore Espagne en 2020.</p>
         </div>
     
         <div class="texte-2">
             <p><i>Elizabeth TCHOUNGUI</i> est la Directrice Exécutive en charge de la responsabilité sociétale et environnementale du Groupe depuis le 3 avril 2023. Elle fut la première journaliste africaine
-                à présenter le journal de TV5 Monde et la première femme à présenter le magazine hebdomadaire culturel de France 2.</p><br>  
+                à présenter le journal de TV5 Monde et la première femme à présenter le magazine hebdomadaire culturel de France 2.</p> 
         </div>
     
         <div class="texte-3">
             <p>Le créateur de l'entreprise France Télécom est inconnu, il <br> 
                 est resté anonyme. En revanche, le 1er janvier 1991, Marcel <br>
-                Roulet fut désigné comme le premier président.</p><br>
+                Roulet fut désigné comme le premier président.</p>
         </div>
     
         <div class="texte-4">
             <p>L'entreprise compte 136 000 salariés en revanche seul 30% sont 
                 des femmes. Cependant, Orange a des politiques en faveur de 
-                l'égalité et tente d'augmenter la représentation<br>
-                des femmes, notamment dans les postes de direction.</p><br>
+                l'égalité et tente d'augmenter la représentation
+                des femmes, notamment dans les postes de direction.</p>
         </div>
     </div>
     
@@ -94,38 +94,34 @@
                     <a class="fb-logo" href="https://fr.linkedin.com/company/orange">
                         <img width="40px" src="../images/icons8-linkedin.svg" alt="">
                     </a>
+                    
                 </div>
             </div>
         </div>
     </div>
+    <div class="carte">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2626.466030376768!2d2.258914875959936!3d48.830248802687144!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e67bccf07b3b59%3A0xc4a264835a1c1d01!2sOrange%20Bridge%2C%20si%C3%A8ge%20social%20Orange!5e0!3m2!1sfr!2sfr!4v1729171554630!5m2!1sfr!2sfr" width="350" height="350"  style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
     <br>
     <script>
-        // Fonction pour vérifier si un élément est visible dans la fenêtre
-        function checkVisibility() {
-          const elements = document.querySelectorAll('.texte-1, .texte-2, .texte-3, .texte-4');
-          
-          elements.forEach(element => {
-            const position = element.getBoundingClientRect().top; // Position de l'élément par rapport à la fenêtre
-            const windowHeight = window.innerHeight;
-      
-            if (position < windowHeight * 0.8 && position > windowHeight * 0.2) {
-              element.classList.add('visible');
-            } else {
-              element.classList.remove('visible');
-            }
-          });
-        }
-      
-        // Initialisation : ajouter la classe hidden à tous les textes au départ
-        document.querySelectorAll('.texte-1, .texte-2, .texte-3, .texte-4').forEach(element => {
-          element.classList.add('hidden');
-        });
-      
-        // Vérifie la visibilité à chaque défilement
-        window.addEventListener('scroll', checkVisibility);
-      
-        // Vérifie la visibilité au chargement initial de la page
-        window.addEventListener('load', checkVisibility);
+       document.addEventListener("DOMContentLoaded", function() {
+  const elements = document.querySelectorAll('.texte-1, .texte-2, .texte-3, .texte-4');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      } else {
+        entry.target.classList.remove('visible');
+      }
+    });
+  }, {
+    threshold: 0.7 
+  });
+  elements.forEach(element => {
+    element.classList.add('hidden');
+    observer.observe(element);
+  });
+});
       </script>
       
 <div class="copyright">
