@@ -41,8 +41,18 @@ nav a:hover{
 }
 /* CORPS DE PAGE */
 
+.titre-page{
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+  font-size: 30px;
+}
+.texte{
+
+}
+
 .texte-descri{
-  padding: 20px;
+  padding: 0;
   width: 70%;
   margin: auto;
   color: orange;
@@ -61,7 +71,7 @@ nav a:hover{
     margin: 10px;
     text-align: left;
     color: orange;
-    font-size: 15px;
+    font-size: 18px;
     
 
 
@@ -95,6 +105,7 @@ nav a:hover{
     font-size: 30px;
     text-align: center;
     margin: auto;
+    margin-top: 20px;
   }
   .cybersecu{
     display: flex;
@@ -109,10 +120,37 @@ nav a:hover{
     background-color: white;
     margin: 10px;
     text-align: left;
-    font-size: 15px;
+    font-size: 18px;
+    height: 250px;
   }
-  .men
+  .menu-cybersecu{
+    background-color: rgb(222, 222, 222);
+    width: 70%;
+    padding: 30px;
+    margin: auto;
+  }
+  .icon-cyber{
+    display: block; 
+    margin: auto; 
+    width: 50px;
+     
+  }
+  .lien-cyber{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    width: 200px;
 
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    background-color: black;
+    align-items: center;
+  }
+  .lien-cyber a{
+    text-decoration: none;
+    color: white;
+  }
 
   /*footer*/
 /* Footer */
