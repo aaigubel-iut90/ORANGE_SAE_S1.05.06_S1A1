@@ -1,7 +1,12 @@
+* {
+    box-sizing: border-box; /* S'assure que les paddings et bordures ne débordent pas */
+}
+
 body {
     font-family: Helvetica, sans-serif;
-    margin: 20px;
+    margin: 0; /* Évite les marges par défaut du body */
     line-height: 1.6;
+    overflow-x: hidden; /* Cache le défilement horizontal */
 }
 
 h1 {
@@ -13,10 +18,6 @@ h1 {
 p {
     font-size: 16px;
     color: #333333;
-}
-
-body {
-    margin: 0;
 }
 
 nav {
@@ -85,8 +86,6 @@ nav a:hover {
     z-index: 1;
 }
 
-
-
 .timeline-text {
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
@@ -105,7 +104,6 @@ nav a:hover {
     margin-top: 20px; /* Espace entre le texte et l'image */
 }
 
-
 .timeline-image {
     width: 120px;
     height: 120px;
@@ -121,9 +119,9 @@ nav a:hover {
 .footer {
     background-color: #f27900;
     padding: 70px 0;
-    width: 100vw; 
-    margin-left: calc(50% - 50vw);
-    margin-top: 50px; /* Adjust this value as needed */
+    width: 100%; /* Utilise 100% pour éviter le débordement */
+    margin: 0 auto; /* Centre le footer sans débordement */
+    margin-top: 50px; /* Ajustez cette valeur si nécessaire */
 }
 
 .footer-col {
@@ -234,13 +232,14 @@ nav a:hover {
         margin: 10px 0;
     }
 }
+
 .hidden {
     opacity: 0;
     transform: translateY(50px);
     transition: opacity 1.5s ease, transform 1.5s ease;
-  }
+}
   
-  .visible {
+.visible {
     opacity: 1;
     transform: translateY(0);
-  }
+}
