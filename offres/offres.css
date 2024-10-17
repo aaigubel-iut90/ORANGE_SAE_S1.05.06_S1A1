@@ -16,19 +16,20 @@ body{
   overflow-x: hidden;
   background-color: white;
 }
+/*barre de navigation*/
 nav{
-  text-align: center;
-  padding: 30px;
-  background-color: black;
-  margin: auto;
+text-align: center;
+padding: 40px;
+background-color: black;
+
 }
 nav a{
-  margin-right: 5%;
-  text-decoration: none;
-  color: orange;
-  justify-content: space-between;
-  font-size: 20px;
-  overflow: hidden;
+margin-right: 5%;
+text-decoration: none;
+color: orange;
+justify-content: space-between;
+font-size: 24px;
+overflow: hidden;
 }
 nav a img{
   z-index: 100;
@@ -37,7 +38,7 @@ nav a img{
   margin-top: -15px;
 }
 nav a:hover{
-  background-color: grey;
+ background-color: #131313;
 }
 .boutton_en {
   text-align: end;
