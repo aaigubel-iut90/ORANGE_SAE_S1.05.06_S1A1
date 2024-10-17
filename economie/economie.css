@@ -63,6 +63,14 @@ html *{
   text-align: center;
   align-items: center;
 }
+#tableau1 th{
+  background-color: black;
+  color: white;
+}
+#tableau2 th{
+  background-color: black;
+  color: white;
+}
 #api_results_holder{
   border:1px solid;
   width:fit-content;
