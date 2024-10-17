@@ -13,26 +13,47 @@ body{
 }
 nav{
   text-align: center;
-  padding: 30px;
+  padding: 40px;
   background-color: black;
-  margin: auto;
-}
-nav a{
+  
+  }
+  nav a{
   margin-right: 5%;
   text-decoration: none;
   color: orange;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 24px;
   overflow: hidden;
+  }
+  nav a img{
+    z-index: 100;
+    position:absolute;
+    margin-left: -50px;
+    margin-top: -15px;
+  }
+  nav a:hover{
+   background-color: #131313;
+  }
+  .boutton_en {
+    text-align: end;
+    margin-top :-27px;
+    font-size: 24px;
+  }
+  .boutton_fr  {
+    text-align: end;
+    margin-top :-27px;
+    font-size: 24px;
+  }
+
+.boutton_en {
+  text-align: end;
+  margin-top :-27px;
+  font-size: 24px;
 }
-nav a img{
-  z-index: 100;
-  position:absolute;
-  margin-left: -50px;
-  margin-top: -15px;
-}
-nav a:hover{
-  background-color: grey;
+.boutton_fr  {
+  text-align: end;
+  margin-top :-27px;
+  font-size: 24px;
 }
 
 

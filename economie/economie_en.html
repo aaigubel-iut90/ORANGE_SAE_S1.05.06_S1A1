@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Economy</title>
+    <link rel="stylesheet" href="economie.css">
+    <link rel="icon" type="image/x-icon" href="../images/logo_orange.png">
+</head>
+<body>
+    <nav>
+        <a href="../index.html"><img width="50" src="../images/orange-svgrepo-com.svg" alt=""></a>
+        <a href="../offres/offres.html">Offers</a>
+        <a href="../histoire/histoire.html">History</a>
+        <a href="../ecologie/ecologie.html">Ecology</a>
+        <a href="../economie/economie.html">Economy</a>
+        <a href="../social/social.html">Social</a>
+    </nav>
+    <script src="economie.js"></script>
+    <div id="texte_principal">
+        <h1>Orange through Numbers</h1>
+        <span>
+            <button id="left_button" onclick="swap_image(-1)"></button>
+            <img id="image_liste" onclick="redirect_clic_image()" src="../images/Bourse.jpg" width="200" height="100" alt="Orange withdraws from the New York Stock Exchange" style="vertical-align: middle;">
+            <button id="right_button" onclick="swap_image(1)"></button>
+        </span>
+        <br>
+        
+        <div id="premier_paragraphe">
+            <h3 style="text-align: center; color: black;">Welcome to the economy page.<br></h3>
+            This page aims to describe the economy of Orange.<br>
+            Orange's revenue in 2023 was €43.47 billion.<br>
+            Orange's revenue is on average higher than other companies in the industry,<br>
+            however, Orange's revenue has continually decreased between 2014 and 2020, falling from 23,763 in 2014 to 22,603 in 2020,<br>
+            representing a decrease of approximately 4.9 percentage points.<br>
+            Although Orange has a significant share of the French and more generally European telecommunications market,<br>
+            it is not the leading company in terms of the number of subscribers globally, as indicated by this ranking.<br>
+        </div>
+        <p>
+            <table id="tableau2">
+                <caption>Revenue of Telecommunications Companies (Millions of Euros)</caption>
+                <tr>
+                    <th style="background-color: rgb(242, 255, 0);">Company</th>
+                    <th>SFR</th>
+                    <th>Orange</th>
+                    <th>Telefón

@@ -4,10 +4,8 @@ html *{
 
 }
 body{
-  margin: 0; 
-  background-image:url(../images/salariesorange.jpg); 
-  background-size: cover;
-  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
 }
 ::-webkit-scrollbar{
   display: none;
@@ -16,16 +14,16 @@ body{
 /*barre de navigation*/
 nav{
 text-align: center;
-padding: 30px;
+padding: 40px;
 background-color: black;
-margin: auto;
+
 }
 nav a{
 margin-right: 5%;
 text-decoration: none;
 color: orange;
 justify-content: space-between;
-font-size: 20px;
+font-size: 24px;
 overflow: hidden;
 }
 nav a img{
@@ -37,10 +35,29 @@ nav a img{
 nav a:hover{
  background-color: #131313;
 }
+.boutton_en {
+  text-align: end;
+  margin-top :-27px;
+  font-size: 24px;
+}
+.boutton_fr  {
+  text-align: end;
+  margin-top :-27px;
+  font-size: 24px;
+}
 
 /*corps principale(images)*/
 .corps{
-  margin: 40px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),url('../images/bureau.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  gap: 20px; 
+  
 }
 .corps .photo{
   display: flex; /*aligne horizontalement*/
@@ -50,6 +67,7 @@ nav a:hover{
 }
 
 .corps .photo {
+  margin-top: 20px;
   flex-direction: row;
   display: flex;
   align-items: center;
@@ -64,9 +82,7 @@ nav a:hover{
   margin-top:10px; /*rajoute de l'espace entre la photo et le nom*/
   font-size: 20px;
 }
-body .corps{
-padding-left : 10px;
-}
+
 
 .JF{
   position: relative;
@@ -87,12 +103,14 @@ padding-left : 10px;
   position: relative;
   width: 300px; 
   height: auto; 
+  background-color: white;
 }
 
 .plusTexte {
   display: none; 
   margin-top: 10px; 
   text-align: center;
+  background-color: white;
 }
 
 .checkbox:checked + label + .plusTexte {
@@ -122,9 +140,11 @@ div .texte-1{
   font-size: 18px;
   border: solid 2px;
   border-radius: 30px;
-  height: 150px;
   width:500px;
-  line-height: 24px;
+  line-height: 28px;
+  box-shadow: 10px 5px 5px darkorange;
+  background-color: white;
+  display: block;
 }
   div .texte-2{
     text-align:center;
@@ -132,18 +152,20 @@ div .texte-1{
     font-size: 18px;
     border: solid 2px;
     border-radius: 30px;
-    height: 160px;
     width:500px;
-    line-height: 24px;
+    line-height: 28px;
+    box-shadow: 10px 5px 5px darkorange;
+    background-color: white;
   }
 div .texte-3{
   text-align:center;
   font-size: 18px;
   border: solid 2px;
   border-radius: 30px;
-  height: 100px;
   width:500px;
-  line-height: 24px;
+  line-height: 28px;
+  box-shadow: 10px 5px 5px darkorange;
+  background-color: white;
 }
 div .texte-4{
   text-align:center;
@@ -151,9 +173,33 @@ div .texte-4{
   font-size: 18px;
   border: solid 2px;
   border-radius: 30px;
-  height: 150px;
-  width:500px;
-  line-height: 24px;
+  width:450px;
+  line-height: 28px;
+  box-shadow: 10px 5px 5px darkorange;
+  background-color: white;
+}
+div .texte-5{
+  text-align:center;
+  float: right;
+  font-size: 18px;
+  border: solid 2px;
+  border-radius: 30px;
+  width:450px;
+  line-height: 28px;
+  box-shadow: 10px 5px 5px darkorange;
+  background-color: white;
+}
+
+div .texte-1, div .texte-3 , div .texte-5{
+  margin-right: auto;
+  margin-left: 200px;
+  padding :17px;
+}
+
+div .texte-2, div .texte-4 {
+  margin-left: auto;
+  margin-right: 200px;
+  padding: 17px;
 }
 .hidden {
   opacity: 0;
@@ -171,24 +217,6 @@ div .texte-4{
   display: table;
   clear: both;
 }
-
-.corps {
-  display: flex;
-  flex-direction: column; 
-  align-items: center;
-  gap: 20px; 
-}
-
-div .texte-1, div .texte-3 {
-  margin-right: auto;
-  margin-left: 100px;
-}
-
-div .texte-2, div .texte-4 {
-  margin-left: auto;
-  margin-right: 100px;
-}
-
 
 /*footer*/
 .footer {
@@ -213,7 +241,6 @@ margin-bottom: 35px;
 font-weight: 500;
 position: relative;
 }
-
 .footer-col h4::before {
 content: '';
 position: absolute;
@@ -228,6 +255,7 @@ width: 200px;
 .footer-col ul li:not(:last-child) {
 margin-bottom: 10px;
 }
+
 
 .footer-col ul li a {
 font-size: 16px;
@@ -256,7 +284,6 @@ border-radius: 50%;
 color: #ffffff;
 transition: all 0.5s ease;
 }
-
 .footer-col .social-links a:hover {
 color: #24262b;
 background-color: #ffffff;
