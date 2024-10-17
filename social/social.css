@@ -35,10 +35,20 @@ nav a img{
 nav a:hover{
  background-color: #131313;
 }
+.boutton_en {
+  text-align: end;
+  margin-top :-27px;
+  font-size: 24px;
+}
+.boutton_fr  {
+  text-align: end;
+  margin-top :-27px;
+  font-size: 24px;
+}
 
 /*corps principale(images)*/
 .corps{
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),url('/images/bureau.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)),url('../images/bureau.jpg');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -72,9 +82,7 @@ nav a:hover{
   margin-top:10px; /*rajoute de l'espace entre la photo et le nom*/
   font-size: 20px;
 }
-body .corps{
-padding-left : 10px;
-}
+
 
 .JF{
   position: relative;
@@ -170,8 +178,19 @@ div .texte-4{
   box-shadow: 10px 5px 5px darkorange;
   background-color: white;
 }
+div .texte-5{
+  text-align:center;
+  float: right;
+  font-size: 18px;
+  border: solid 2px;
+  border-radius: 30px;
+  width:450px;
+  line-height: 28px;
+  box-shadow: 10px 5px 5px darkorange;
+  background-color: white;
+}
 
-div .texte-1, div .texte-3 {
+div .texte-1, div .texte-3 , div .texte-5{
   margin-right: auto;
   margin-left: 200px;
   padding :17px;
@@ -265,18 +284,6 @@ border-radius: 50%;
 color: #ffffff;
 transition: all 0.5s ease;
 }
-
-.carte {
-  width: 100%;
-  max-width: 350px; 
-  height: auto; 
-  margin: 0 auto ; 
-  display: block; 
-}
-.footer-col .carte{
-  display: flex;
-}
-
 .footer-col .social-links a:hover {
 color: #24262b;
 background-color: #ffffff;
