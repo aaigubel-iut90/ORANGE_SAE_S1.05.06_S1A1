@@ -47,14 +47,14 @@ nav a:hover {
 
 .timeline-container {
     position: relative;
-    margin: 160px 0;
+    margin: 100px 0;
 }
 
 .timeline-container::before {
     content: '';
     position: absolute;
     left: 50%;
-    top: -150px; /* Commence avant la première date */
+    top: -50px; /* Commence avant la première date */
     height: calc(100% + 50px); /* Pour que la ligne prenne toute la hauteur plus le décalage du haut */
     width: 2px;
     background-color: #FF6600;
@@ -67,6 +67,8 @@ nav a:hover {
     align-items: center;
     margin: 60px 0;
     position: relative;
+    /* Ajouter un alignement centré pour le texte et l'image */
+    align-items: center;
 }
 
 .timeline-date-circle {
@@ -82,7 +84,6 @@ nav a:hover {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
-    top: -20px;
     z-index: 1;
 }
 
@@ -92,12 +93,18 @@ nav a:hover {
     padding: 20px;
     width: 40%;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    /* Centrer verticalement par rapport au cercle de date */
+    display: flex;
+    align-items: center;
 }
 
 .timeline-image-container {
     width: 40%;
     display: flex;
     justify-content: center;
+    /* Centrer verticalement par rapport au cercle de date */
+    display: flex;
+    align-items: center;
 }
 
 .timeline-image {
