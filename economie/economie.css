@@ -1,11 +1,23 @@
 html *{
     font-family:Helvetica, sans-serif,system-ui;
+    overflow: scroll;
+    overflow-x: hidden;
+  }
+  ::-webkit-scrollbar{
+    display: none;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #FF0000;
   }
   body{
     margin: 0;
   }
   body a{
     color: #000000;
+  }
+  #premier_paragraphe{
+    display: inline-block;
+    text-align: left;
   }
   nav{
     text-align: center;
