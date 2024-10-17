@@ -298,7 +298,12 @@ hr {
   font-size: 1rem;
 }
 .imagep3 {
+<<<<<<< HEAD
   position: absolute; top: 3035px; right: 180px;
 }
 
 
+=======
+  position: absolute; top: 3060px; right: 180px;
+}
+>>>>>>> bda8b181299fb05b155d8b791d725d840b29c0e9
