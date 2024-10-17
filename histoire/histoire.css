@@ -6,9 +6,8 @@ body {
 
 h1 {
     font-size: 24px;
-    color: #FF6600; /* couleur inspirée du logo d'Orange */
+    color: #FF6600;
     text-align: center;
-
 }
 
 p {
@@ -16,142 +15,149 @@ p {
     color: #333333;
 }
 
-body{
-  margin: 0;
+body {
+    margin: 0;
 }
 
-nav{
+nav {
     text-align: center;
     padding: 30px;
     background-color: black;
     margin: auto;
-  }
-  nav a{
+}
+
+nav a {
     margin-right: 5%;
     text-decoration: none;
     color: orange;
     justify-content: space-between;
     font-size: 20px;
-    overflow: hidden;
-  }
-  nav a img{
+}
+
+nav a img {
     z-index: 100;
-    position:absolute;
+    position: absolute;
     margin-left: -50px;
     margin-top: -15px;
-  }
-  nav a:hover{
+}
+
+nav a:hover {
     background-color: grey;
-  }
-.corps{
-    margin-left:10px;
 }
 
-
-/*footer*/
-/* Footer */
-.footer {
-    background-color: #f27900;
-    padding: 70px 0;
-    width: 100vw; /* Prend 100% de la largeur de l'écran */
-    margin-left: calc(50% - 50vw); /* Centre le footer pour compenser */
+.timeline-container {
+    position: relative;
+    margin: 160px 0;
 }
 
-.footer-col {
-    width: 25%;
-    padding: 0 15px;
-    display: inline-block; /* Permet aux colonnes d'être côte à côte */
-    vertical-align: top; /* Aligne les colonnes en haut */
+.timeline-container::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: -150px; /* Commence avant la première date */
+    height: calc(100% + 50px); /* Pour que la ligne prenne toute la hauteur plus le décalage du haut */
+    width: 2px;
+    background-color: #FF6600;
+    transform: translateX(-50%);
 }
 
-.footer-col h4 {
-    font-size: 18px;
-    color: #ffffff;
-    text-transform: capitalize;
-    margin-bottom: 35px;
-    font-weight: 500;
+.timeline-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 0;
     position: relative;
 }
 
-.footer-col h4::before {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -10px;
-    background-color: #000000;
-    height: 2px;
-    box-sizing: border-box;
-    width: 200px;
-}
-
-.footer-col ul li:not(:last-child) {
-    margin-bottom: 10px;
-}
-
-.footer-col ul li a {
-    font-size: 16px;
-    text-transform: capitalize;
-    color: #ffffff;
-    text-decoration: none;
-    font-weight: 300;
-    display: block;
-    transition: all 0.3s ease;
-}
-
-.footer-col ul li a:hover {
-    color: #ffffff;
-    padding-left: 8px;
-}
-
-.footer-col .social-links a {
-    display: inline-block;
-    height: 40px;
+.timeline-date-circle {
     width: 40px;
-    background-color: rgba(57, 33, 33, 0.2);
-    margin: 0 10px 10px 0;
-    text-align: center;
-    line-height: 40px;
+    height: 40px;
     border-radius: 50%;
-    color: #ffffff;
-    transition: all 0.5s ease;
+    background-color: #FF6600;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -20px;
+    z-index: 1;
 }
 
-.footer-col .social-links a:hover {
-    color: #24262b;
-    background-color: #ffffff;
+.timeline-text {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 20px;
+    width: 40%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* Section Copyright */
-.copyright {
+.timeline-image-container {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.timeline-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 10px;
+}
+
+/* Inverser les éléments texte et image pour les éléments pairs */
+.timeline-item:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+/* Footer */
+.footer {
     text-align: center;
-    color: rgb(0, 0, 0);
-    margin-top: 20px; 
-    padding: 10px 0; 
+    background-color: black;
+    padding: 20px 0;
+    color: white;
 }
 
-.copyright h5 {
-    font-size: 14px;
-    line-height: 1.5;
-    margin: 0;
+.footer-col {
+    margin: 20px 0;
 }
 
-/* Responsive */
+.footer-col h4 {
+    font-size: 20px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col ul li {
+    margin: 5px 0;
+}
+
+.footer-col a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-links a {
+    margin: 0 10px;
+}
+
 @media (max-width: 767px) {
-    .footer-col {
-        width: 50%;
-        margin-bottom: 30px;
+    .timeline-item {
+        flex-direction: column;
+        align-items: center;
     }
-}
 
-@media (max-width: 574px) {
-    .footer-col {
-        width: 100%;
+    .timeline-image {
+        width: 100px;
+        height: 100px;
     }
-}
 
-/* Centre le texte du menu */
-.menu-4 {
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: 500;
+    .timeline-text {
+        width: auto;
+        margin: 10px 0;
+    }
 }
