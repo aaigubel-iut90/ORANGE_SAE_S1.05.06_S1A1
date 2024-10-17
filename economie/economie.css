@@ -11,6 +11,11 @@ html *{
   }
   body{
     margin: 0;
+    scrollbar-width: 0px;
+    /*overflow: hidden !important;*/
+    -ms-overflow-style: none; 
+    scrollbar-color: transparent transparent;
+    overflow-x: hidden;
   }
   body a{
     color: #000000;

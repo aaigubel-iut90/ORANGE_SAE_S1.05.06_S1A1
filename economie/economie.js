@@ -1,5 +1,5 @@
 let pos=0;
-array_image = ["../images/Orange_se_retire_bourse_NY_figaro.webp","../images/logo_orange_batiment.jpg"];    
+array_image = ["../images/Bourse.jpg","../images/logo_orange_batiment.jpg"];    
 array_links = ["https://www.lefigaro.fr/societes/orange-annonce-se-retirer-de-la-bourse-de-new-york-20240925","https://www.orange.com/fr/cours-de-laction"];   
 function swap_image(index_change){
 pos=pos+index_change;
