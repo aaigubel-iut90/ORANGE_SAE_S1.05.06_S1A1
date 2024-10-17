@@ -6,7 +6,6 @@ html *{
   }
   body a{
     color: #000000;
-    text-decoration: none;
   }
   nav{
     text-align: center;
@@ -59,6 +58,26 @@ html *{
   background-color:#ec8507 ;
   border-color: #ec8507;
 }
+
+#right_button{
+  width: 40px;
+  height: 40px;
+  transform: rotate(135deg);
+  border-width: 6px 0 0 6px;
+  background-color: rgba(0, 0, 0, 0);
+  vertical-align: middle;
+}
+#left_button{
+  width: 40px;height: 40px;
+  transform: rotate(-45deg);
+  border-width: 6px 0 0 6px;
+  background-color: rgba(0, 0, 0, 0);
+  vertical-align: middle;
+}
+
+#image_liste:hover{
+  cursor: pointer;
+}
 #texte_principal table{
   margin: auto;
   border: 1px solid;
@@ -80,7 +99,7 @@ html *{
   /*footer*/
 /* Footer */
 .footer {
-  background-color: #f27900;
+  background:linear-gradient( #f27900,rgb(251, 177, 40));
   padding: 70px 0;
   width: 100vw; /* Prend 100% de la largeur de l'écran */
   margin-left: calc(50% - 50vw); /* Centre le footer pour compenser */

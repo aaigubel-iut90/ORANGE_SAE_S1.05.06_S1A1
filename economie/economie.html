@@ -20,21 +20,70 @@
 <script src="economie.js"></script>
 <div id="texte_principal">
     <h1>Orange à travers des chiffres</h1>
-    <span style="display: block;align-content: stretch;">
-        <button style="width: 80px;height: 80px;transform: rotate(-45deg);border-width: 6px 0 0 6px;background-color: rgba(0, 0, 0, 0);vertical-align: middle;" onclick="swap_image(-1)"></button>
-        <img id="image_liste" src="../images/Orange_se_retire_bourse_NY_figaro.webp" width="200" height="100" alt="Orange se retire de la bourse de New York" style="vertical-align: middle;user-drag: none;">
-        <button style="width: 80px;height: 80px;transform: rotate(135deg);border-width: 6px 0 0 6px;background-color: rgba(0, 0, 0, 0);vertical-align: middle;" onclick="swap_image(1)"></button>
+    <span >
+        <button id="left_button" onclick="swap_image(-1)"></button>
+        
+        <img id="image_liste" onclick="redirect_clic_image()" src="../images/Orange_se_retire_bourse_NY_figaro.webp" width="200" height="100" alt="Orange se retire de la bourse de New York" style="vertical-align: middle;">
+        
+        <button id="right_button"  onclick="swap_image(1)"></button>
     </span>
     <br>
     <p>
         Bienvenue sur la page économie.<br>
         Cette page a pour but de décrire l'économie d'Orange.<br>
         Le chiffre d'affaire d'Orange s'élevait en 2023 à  43,47 milliards d'euros.<br>
-        Le chiffre d'affaire d'Orange est en moyenne supérieur aux autres entreprises du secteur d'activité<br>
+        Le chiffre d'affaire d'Orange est en moyenne supérieur aux autres entreprises du secteur d'activité,<br>
+        cependant, le chiffre d'affaire d'Orange n'a cessé de diminuer entre 2014 et 2020, passant de 23 763 en à 22 603 en 2020<br>
+        soit une baisse d'approximativement 4.9 points de pourcentage.<br>
+        Bien qu'Orange possède une part importante du marché Français et plus généralement Européen dans le secteur des télécommunications <br>
+        elle n'est cependant pas la première entreprise en terme de nombre d'abonnés au niveau mondial , comme l'indique ce classement<br>
+        
+        
         <table>
             Chiffre d'affaire des entreprises de téléphonies (Millions d'euros)
             <tr>
-                <th style="background-color: aqua;">Entreprise</th>
+                <th style="background-color: rgb(242, 255, 0);">Entreprise</th>
+                <th>SFR</th>
+                <th>Etisalat</th>
+                <th>MTN Group</th>
+                <th>Saudi Telecom Company</th>
+                <th>Telia</th>
+                <th>China Unicom</th>
+                <th>Axiata Group Berhad</th>
+                <th>SingTel</th>
+                <th>Veon</th>
+                <th>Orange</th>
+                <th>Telefónica</th>
+                <th>América Móvil</th>
+                <th>Bharti Airtel</th>
+                <th>Telenor</th>
+                <th>Vodafone</th>
+                <th>China Mobile</th>
+            </tr>
+            <tr>
+                <th>Nombre d'abonnés (millions)</th>
+                <th>20,321</th>
+                <th>135</th>
+                <th>137,47</th>
+                <th>139</th>
+                <th>160</th>
+                <th>169,7</th>
+                <th>159,7 </th>
+                <th>146</th>
+                <th>199</th>
+                <th>232,5 (2013)</th>
+                <th>231,87</th>
+                <th>236</th>
+                <th>243,336</th>
+                <th>326</th>
+                <th>439,601</th>
+                <th>649,56</th>
+            </tr>
+        </table>
+        <table>
+            Chiffre d'affaire des entreprises de téléphonies (Millions d'euros)
+            <tr>
+                <th style="background-color: rgb(242, 255, 0);">Entreprise</th>
                 <th>2014</th>
                 <th>2015</th>
                 <th>2016</th>
@@ -80,58 +129,10 @@
         <br>
         <br>
         <div id="api_results_holder">
+            <h4>Valeur en temps réels de l'action d'Orange</h4>
 
         </div>
 
-        <script>
-
-
-            function load(url, callback) {
-            const xhr = new XMLHttpRequest();
-    
-            xhr.onreadystatechange = () => {
-                if (xhr.readyState === 4) {
-                callback(xhr.response);
-                }
-            };
-    
-            xhr.open("GET", "https://quote.cnbc.com/quote-html-webservice/restQuote/symbolType/symbol?symbols=ORA-FR&requestMethod=itv&noform=1&partnerId=2&fund=1&exthrs=1&output=json&events=1",true);
-    
-            xhr.send("");
-            }
-            function inserter(result){
-                let rs_js=JSON.parse(result);
-                //document.write('<div>Price of Orange : Close -  ' + result+ '</div>');
-                
-                const element = document.getElementById("api_results_holder");
-                let vls=rs_js.FormattedQuoteResult.FormattedQuote[0];
-                let nom=document.createElement("p");
-                let valeur_actuelle=document.createElement("p");
-                let taux_dividentes=document.createElement("a");
-                let plage_annee=document.createElement("p");
-                let place_boursiere_principale=document.createElement("p");
-                let ratio_pe=document.createElement("p");
-
-                nom.innerHTML="Nom de bourse: "+vls.symbol;
-                valeur_actuelle.innerHTML="Dernier prix d'action : "+vls.last;
-                taux_dividentes.innerHTML="Rendement (dividendes): "+vls.dividend;
-                plage_annee.innerHTML="Plage sur l'année: "+vls.yrloprice+" - "+ vls.yrhiprice;
-                place_boursiere_principale.innerHTML="Place Boursière principale: "+vls.exchange;
-                ratio_pe.innerHTML="Ratio cours/bénéfices: "+vls.pe;
-
-                taux_dividentes.href="https://fr.wikipedia.org/wiki/Dividende";
-
-
-                element.appendChild(nom);
-                element.appendChild(valeur_actuelle);
-                element.appendChild(taux_dividentes);
-                element.appendChild(plage_annee);
-                element.appendChild(place_boursiere_principale);
-                element.appendChild(ratio_pe);
-                //document.write('<div>Price of Orange : Close -  ' + rs_js.FormattedQuoteResult.FormattedQuote[0].symbol+ '</div>');
-            };
-            load("",inserter);
-        </script>
         
 
     </p>
@@ -139,7 +140,7 @@
     <br>
     <div id="container_graphique">
         <h3>Cours des actions d'Orange sur les 6 derniers mois</h3>
-        <img src="../images/Actions_valeur_6_mois.png" width="500" height="300" alt="Cours des actions d'Oranges sur les 6 derniers mois">
+        <img src="../images/Actions_valeur_6_mois.png" onclick="redirect_clic_image()" width="500" height="300" alt="Cours des actions d'Oranges sur les 6 derniers mois">
     </div>
 
 
@@ -152,10 +153,10 @@
             <div class="footer-col">
                 <h4>Plus de notre site</h4>
                 <ul>
-                    <li><a href="histoire.html">Histoire</a></li>
+                    <li><a href="../histoire/histoire.html">Histoire</a></li>
                     <li><a href="../offres/offres.html">Offres</a></li>
                     <li><a href="../ecologie/ecologie.html">Ecologie</a></li>
-                    <li><a href="../economie/economie.html">Activités</a></li>
+                    <li><a href="../economie/economie.html">Economie</a></li>
                     <li><a href="../social/social.html">Social</a></li>
                 </ul>
             </div>
