@@ -2,6 +2,7 @@ html *{
     font-family:Helvetica, sans-serif,system-ui;
     overflow: scroll;
     overflow-x: hidden;
+    color: white;
   }
   ::-webkit-scrollbar{
     display: none;
@@ -16,6 +17,12 @@ html *{
     -ms-overflow-style: none; 
     scrollbar-color: transparent transparent;
     overflow-x: hidden;
+  
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/background_finance.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
   body a{
     color: #000000;
@@ -27,6 +34,7 @@ html *{
     background-color:#ff8c00 ;
     border-width: 5px;
     border-style: solid;
+    color: black;
   }
   nav{
     text-align: center;
@@ -55,6 +63,14 @@ html *{
   text-align: center;
   align-items: center;
 }
+#tableau1 th{
+  background-color: black;
+  color: white;
+}
+#tableau2 th{
+  background-color: black;
+  color: white;
+}
 #api_results_holder{
   border:1px solid;
   width:fit-content;
@@ -64,6 +80,13 @@ html *{
   border-color:#e17101;
   text-align: auto;
   align-self: auto;
+  color: #000000;
+}
+#api_results_holder p{
+  color: #000000;
+}
+#api_results_holder h4{
+  color: #000000;
 }
 #texte_principal h1{
   border: 1px solid;
@@ -78,6 +101,7 @@ html *{
   text-decoration-thickness: 2px;
   background-color:#ec8507 ;
   border-color: #ec8507;
+  color: black;
 }
 
 #right_button{
@@ -94,6 +118,9 @@ html *{
   border-width: 6px 0 0 6px;
   background-color: rgba(0, 0, 0, 0);
   vertical-align: middle;
+}
+#download_button{
+  width: 40px;height: 40px;
 }
 
 #image_liste:hover{
