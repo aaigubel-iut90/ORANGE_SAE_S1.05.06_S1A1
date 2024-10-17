@@ -57,29 +57,32 @@ nav{
 }
 
 
+/* Footer */
 .footer {
   background-color: #f27900;
   padding: 70px 0;
-  width: 100vw; 
-  margin-left: calc(50% - 50vw); /* Centre le footer pour compenser */
-  }
-  
-  .footer-col {
+  width: 100%; /* Utilise 100% pour éviter le débordement */
+  margin: 0 auto; /* Centre le footer sans débordement */
+  margin-top: 50px; /* Ajustez cette valeur si nécessaire */
+}
+
+.footer-col {
   width: 25%;
   padding: 0 15px;
-  display: inline-block; /* Permet aux colonnes d'être côte à côte */
-  vertical-align: top; /* Aligne les colonnes en haut */
-  }
-  
-  .footer-col h4 {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.footer-col h4 {
   font-size: 18px;
   color: #ffffff;
   text-transform: capitalize;
   margin-bottom: 35px;
   font-weight: 500;
   position: relative;
-  }
-  .footer-col h4::before {
+}
+
+.footer-col h4::before {
   content: '';
   position: absolute;
   left: 0;
@@ -88,14 +91,13 @@ nav{
   height: 2px;
   box-sizing: border-box;
   width: 200px;
-  }
-  
-  .footer-col ul li:not(:last-child) {
+}
+
+.footer-col ul li:not(:last-child) {
   margin-bottom: 10px;
-  }
-  
-  
-  .footer-col ul li a {
+}
+
+.footer-col ul li a {
   font-size: 16px;
   text-transform: capitalize;
   color: #ffffff;
@@ -103,14 +105,14 @@ nav{
   font-weight: 300;
   display: block;
   transition: all 0.3s ease;
-  }
-  
-  .footer-col ul li a:hover {
+}
+
+.footer-col ul li a:hover {
   color: #ffffff;
   padding-left: 8px;
-  }
-  
-  .footer-col .social-links a {
+}
+
+.footer-col .social-links a {
   display: inline-block;
   height: 40px;
   width: 40px;
@@ -121,39 +123,41 @@ nav{
   border-radius: 50%;
   color: #ffffff;
   transition: all 0.5s ease;
-  }
-  .footer-col .social-links a:hover {
+}
+
+.footer-col .social-links a:hover {
   color: #24262b;
   background-color: #ffffff;
-  }
-  
-  /* Section Copyright */
-  .copyright {
+}
+
+/* Section Copyright */
+.copyright {
   text-align: center;
   color: rgb(0, 0, 0);
   margin-top: 20px; 
   padding: 10px 0; 
-  }
-  
-  .copyright h5 {
+}
+
+.copyright h5 {
   font-size: 14px;
   line-height: 1.5;
   margin: 0;
-  }
+}
 
 /* Responsive */
 @media (max-width: 767px) {
-.footer-col {
-    width: 50%;
-    margin-bottom: 30px;
-}
+  .footer-col {
+      width: 50%;
+      margin-bottom: 30px;
+  }
 }
 
 @media (max-width: 574px) {
-.footer-col {
-    width: 100%;
+  .footer-col {
+      width: 100%;
+  }
 }
-}
+
 
 .imagep {
 display: flex;  
