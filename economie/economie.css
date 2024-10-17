@@ -18,6 +18,9 @@ html *{
   #premier_paragraphe{
     display: inline-block;
     text-align: left;
+    border-color:#e17101;
+    background-color:#ff8c00 ;
+    border-width: 5px;
   }
   nav{
     text-align: center;
@@ -50,7 +53,7 @@ html *{
   border:1px solid;
   width:fit-content;
   background-color:#ff8c00 ;
-  border-width: 5px;
+  border-width: 50px;
   margin: auto;
   border-color:#e17101;
   text-align: auto;
