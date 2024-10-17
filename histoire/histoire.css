@@ -20,31 +20,43 @@ p {
     color: #333333;
 }
 
-nav {
-    text-align: center;
-    padding: 30px;
-    background-color: black;
-    margin: auto;
+body {
+    margin: 0;
 }
 
-nav a {
+nav{
+    text-align: center;
+    padding: 40px;
+    background-color: black;
+    
+    }
+    nav a{
     margin-right: 5%;
     text-decoration: none;
     color: orange;
     justify-content: space-between;
-    font-size: 20px;
-}
-
-nav a img {
-    z-index: 100;
-    position: absolute;
-    margin-left: -50px;
-    margin-top: -15px;
-}
-
-nav a:hover {
-    background-color: grey;
-}
+    font-size: 24px;
+    overflow: hidden;
+    }
+    nav a img{
+      z-index: 100;
+      position:absolute;
+      margin-left: -50px;
+      margin-top: -15px;
+    }
+    nav a:hover{
+     background-color: #131313;
+    }
+    .boutton_en {
+      text-align: end;
+      margin-top :-27px;
+      font-size: 24px;
+    }
+    .boutton_fr  {
+      text-align: end;
+      margin-top :-27px;
+      font-size: 24px;
+    }
 
 .timeline-container {
     position: relative;
@@ -86,6 +98,14 @@ nav a:hover {
     z-index: 1;
 }
 
+
+body{
+    margin: 0; 
+  }
+  
+  ::-webkit-scrollbar{
+    display: none;
+  }
 .timeline-text {
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 10px;

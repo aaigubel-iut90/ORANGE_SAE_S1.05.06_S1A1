@@ -2,7 +2,7 @@ html *{
     font-family:Helvetica, sans-serif,system-ui;
     overflow: scroll;
     overflow-x: hidden;
-    color: white;
+    
   }
   ::-webkit-scrollbar{
     display: none;
@@ -17,7 +17,7 @@ html *{
     -ms-overflow-style: none; 
     scrollbar-color: transparent transparent;
     overflow-x: hidden;
-  
+    color: white;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/background_finance.jpg");
     background-size: cover;
     background-position: center;
@@ -38,27 +38,38 @@ html *{
   }
   nav{
     text-align: center;
-    padding: 30px;
+    padding: 40px;
     background-color: black;
-    margin: auto;
-  }
-  nav a{
+    
+    }
+    nav a{
     margin-right: 5%;
     text-decoration: none;
     color: orange;
     justify-content: space-between;
-    font-size: 20px;
+    font-size: 24px;
     overflow: hidden;
-  }
-  nav a img{
-    z-index: 100;
-    position:absolute;
-    margin-left: -50px;
-    margin-top: -15px;
-  }
-  nav a:hover{
-    background-color: grey;
-  }
+    }
+    nav a img{
+      z-index: 100;
+      position:absolute;
+      margin-left: -50px;
+      margin-top: -15px;
+    }
+    nav a:hover{
+     background-color: #131313;
+    }
+    .boutton_en {
+      text-align: end;
+      margin-top :-27px;
+      font-size: 24px;
+    }
+    .boutton_fr  {
+      text-align: end;
+      margin-top :-27px;
+      font-size: 24px;
+    }
+    
 #texte_principal{
   text-align: center;
   align-items: center;
