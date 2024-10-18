@@ -94,7 +94,7 @@ Vérification W3C :
 
 Vérification W3C :
 
-![capture d'écran de la conformité de la page offres](/images/)
+![capture d'écran de la conformité de la page ecologie](/images/)
 
 
 ### Page Economie
@@ -103,7 +103,7 @@ Vérification W3C :
 
 Vérification W3C :
 
-![capture d'écran de la conformité de la page offres](/images/)
+![capture d'écran de la conformité de la page economie](W3C/w3c-economie.webp)
 
 
 ### Page Social
@@ -112,7 +112,7 @@ Vérification W3C :
 
 Vérification W3C :
 
-![capture d'écran de la conformité de la page offres](W3C/W3C_social.png)
+![capture d'écran de la conformité de la page offres](W3C/W3C_social.webp)
 
 
 
