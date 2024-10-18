@@ -104,7 +104,7 @@ Screen de test d'éco-coneception :
 
 Vérification W3C :
 
-![capture d'écran de la conformité de la page ecologie](/images/)
+![capture d'écran de la conformité de la page ecologie](/images/w3c-ecologie/png)
 
 Screen de test d'éco-coneception :
 ![capture d'écran du test d'éco-conception](W3C/eco-ecologie.PNG)
