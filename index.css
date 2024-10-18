@@ -38,7 +38,7 @@ body{
 
 nav{
     text-align: center;
-    padding: 30px;
+    padding: 36px;
     background-color: transparent;
     margin: auto;
     width: 50%;
@@ -48,7 +48,7 @@ nav{
     color: orange;
     justify-content:space-between;
     
-    font-size: 20px;
+    font-size: 24px;
     margin-right:50px;
     z-index: 10;
     width: 100%;
