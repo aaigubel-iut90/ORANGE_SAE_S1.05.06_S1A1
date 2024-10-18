@@ -69,7 +69,7 @@ Il contiendra dans le futur un formulaire de contact ainsi que la possibilité d
 **Auteur : BOUCHE Natan/BIGEARD Noa**
 
 Vérification W3C : 
-![capture d'écran de la conformité de la page d'accueil](W3C/W3C_index.png)
+![capture d'écran de la conformité de la page d'accueil](W3C/W3C_index.PNG)
 
 Screen de test d'éco-coneception :
 ![capture d'écran du test d'éco-conception](W3C/eco-index.PNG)
@@ -183,3 +183,9 @@ Screen de test d'éco-coneception :
 - Histoire : Arthur (100%)
 - Economie : Emmanuel (100%)
 - Ecologie : Ayoub (100%)
+
+### Contributeurs
+
+![capture d'écran de sur la contribution des membres du projet](W3C/capture-contributeurs.PNG)
+*Ignorer le compte imperial-py qui est un second compte de Emmanuel*
+
