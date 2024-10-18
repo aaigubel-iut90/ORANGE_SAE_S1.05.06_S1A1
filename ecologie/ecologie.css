@@ -260,6 +260,8 @@ font-weight: bold;
 }
 .bordure {
 border: #000000 solid 2px;
+margin-top: 20px;  /* Ajuste la distance au-dessus de la barre */
+margin-bottom: 20px;  /* Ajuste la distance en dessous de la barre */
 }
 
 .container {
@@ -301,6 +303,23 @@ hr {
   margin: 0;
   font-size: 1rem;
 }
-.imagep3 {
-  position: absolute; top: 3060px; right: 180px;
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.conclu {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Aligne le texte et l'image verticalement si nécessaire */
+}
+
+.conclu img.imagep3 {
+  float: right;
+  margin-left: 20px; /* Espace entre le texte et l'image */
+  margin-right: 20%;
+  margin: top 20px;
+  margin:bottom 20p;
 }
