@@ -30,6 +30,7 @@ nav{
     position:absolute;
     margin-left: -50px;
     margin-top: -15px;
+    width: 50px;
   }
   nav a:hover{
    background-color: #131313;
