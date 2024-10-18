@@ -69,6 +69,7 @@ Il contiendra dans le futur un formulaire de contact ainsi que la possibilité d
 **Auteur : BOUCHE Natan/BIGEARD Noa**
 
 Vérification W3C : 
+(Lien de la vérification)[https://validator.w3.org/nu/?doc=https%3A%2F%2Faaigubel-iut90.github.io%2FORANGE_SAE_S1.05.06_S1A1%2Findex.html]
 ![capture d'écran de la conformité de la page d'accueil](./W3C/W3C_index.webp)
 
 Screen de test d'éco-coneception :
