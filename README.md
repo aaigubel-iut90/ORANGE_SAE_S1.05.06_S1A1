@@ -69,8 +69,9 @@ Il contiendra dans le futur un formulaire de contact ainsi que la possibilité d
 **Auteur : BOUCHE Natan/BIGEARD Noa**
 
 Vérification W3C : 
-(Lien de la vérification)[https://validator.w3.org/nu/?doc=https%3A%2F%2Faaigubel-iut90.github.io%2FORANGE_SAE_S1.05.06_S1A1%2Findex.html]
-![capture d'écran de la conformité de la page d'accueil](./W3C/W3C_index.webp)
+<br>
+[lien de la vérification](https://validator.w3.org/nu/?doc=https%3A%2F%2Faaigubel-iut90.github.io%2FORANGE_SAE_S1.05.06_S1A1%2Findex.html)
+<br>
 
 Screen de test d'éco-coneception :
 ![capture d'écran du test d'éco-conception](W3C/eco-index.PNG)
@@ -81,6 +82,9 @@ Screen de test d'éco-coneception :
 
 Vérifcation W3C :
 
+<br>
+[lien de la vérification]()
+<br>
 ![capture d'écran de la conformité de la page offres](W3C/w3c-offres.PNG)
 
 Screen de test d'éco-coneception :
@@ -88,6 +92,10 @@ Screen de test d'éco-coneception :
 
 
 ### Page Histoire
+
+<br>
+[lien de la vérification]()
+<br>
 
 **Auteur : AIGUBELLE Arthur**
 
@@ -104,7 +112,9 @@ Screen de test d'éco-coneception :
 **Auteur : CHAKIRI Ayoub**
 
 Vérification W3C :
-
+<br>
+[lien de la vérification]()
+<br>
 ![capture d'écran de la conformité de la page ecologie](/W3C/w3c-ecologie.png)
 
 Screen de test d'éco-coneception :
@@ -116,7 +126,9 @@ Screen de test d'éco-coneception :
 **Auteur : LEVARD Emmanuel**
 
 Vérification W3C :
-
+<br>
+[lien de la vérification]()
+<br>
 ![capture d'écran de la conformité de la page economie](W3C/w3c-economie.webp)
 
 Screen de test d'éco-coneception :
@@ -128,7 +140,9 @@ Screen de test d'éco-coneception :
 **Auteur : BIGEARD Noa**
 
 Vérification W3C :
-
+<br>
+[lien de la vérification]()
+<br>
 ![capture d'écran de la conformité de la page offres](W3C/W3C_social.webp)
 
 Screen de test d'éco-coneception :
