@@ -71,6 +71,9 @@ Il contiendra dans le futur un formulaire de contact ainsi que la possibilité d
 Vérification W3C : 
 ![capture d'écran de la conformité de la page d'accueil](W3C/W3C_index.png)
 
+Screen de test d'éco-coneception :
+![capture d'écran du test d'éco-conception](W3C/eco-index.PNG)
+
 ### Page Offres
 
 **Auteur : BOUCHE Natan**
@@ -79,6 +82,10 @@ Vérifcation W3C :
 
 ![capture d'écran de la conformité de la page offres](W3C/w3c-offres.PNG)
 
+Screen de test d'éco-coneception :
+![capture d'écran du test d'éco-conception](W3C/eco-offres.PNG)
+
+
 ### Page Histoire
 
 **Auteur : AIGUBELLE Arthur**
@@ -86,6 +93,9 @@ Vérifcation W3C :
 Vérification W3C :
 
 ![capture d'écran de la conformité de la page histoire](W3C/w3c-histoire.webp)
+
+Screen de test d'éco-coneception :
+![capture d'écran du test d'éco-conception](W3C/eco-histoire.PNG)
 
 
 ### Page Ecologie
@@ -96,6 +106,9 @@ Vérification W3C :
 
 ![capture d'écran de la conformité de la page ecologie](/images/)
 
+Screen de test d'éco-coneception :
+![capture d'écran du test d'éco-conception](W3C/eco-ecologie.PNG)
+
 
 ### Page Economie
 
@@ -105,6 +118,9 @@ Vérification W3C :
 
 ![capture d'écran de la conformité de la page economie](W3C/w3c-economie.webp)
 
+Screen de test d'éco-coneception :
+![capture d'écran du test d'éco-conception](W3C/eco-economie.PNG)
+
 
 ### Page Social
 
@@ -113,6 +129,10 @@ Vérification W3C :
 Vérification W3C :
 
 ![capture d'écran de la conformité de la page offres](W3C/W3C_social.webp)
+
+Screen de test d'éco-coneception :
+![capture d'écran du test d'éco-conception](W3C/eco-social.PNG)
+
 
 
 
