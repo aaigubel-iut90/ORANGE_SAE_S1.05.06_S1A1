@@ -2,7 +2,7 @@ html *{
     font-family:Helvetica, sans-serif,system-ui;
     overflow: scroll;
     overflow-x: hidden;
-    color: white;
+
   }
   ::-webkit-scrollbar{
     display: none;
@@ -23,6 +23,7 @@ html *{
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    color: white;
   }
   body a{
     color: #000000;
