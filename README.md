@@ -69,7 +69,7 @@ Il contiendra dans le futur un formulaire de contact ainsi que la possibilité d
 **Auteur : BOUCHE Natan/BIGEARD Noa**
 
 Vérification W3C : 
-![capture d'écran de la conformité de la page d'accueil](W3C/W3C_index.PNG)
+![capture d'écran de la conformité de la page d'accueil](./W3C/W3C_index.webp)
 
 Screen de test d'éco-coneception :
 ![capture d'écran du test d'éco-conception](W3C/eco-index.PNG)
@@ -104,7 +104,7 @@ Screen de test d'éco-coneception :
 
 Vérification W3C :
 
-![capture d'écran de la conformité de la page ecologie](/images/)
+![capture d'écran de la conformité de la page ecologie](/W3C/w3c-ecologie.png)
 
 Screen de test d'éco-coneception :
 ![capture d'écran du test d'éco-conception](W3C/eco-ecologie.PNG)
