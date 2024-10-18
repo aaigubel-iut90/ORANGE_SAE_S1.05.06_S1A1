@@ -168,10 +168,10 @@ Screen de test d'éco-coneception :
 - Ayoub (5%)
 
 ### Questionnaire 2
-- Natan (40%)
-- Noa (40%)
+- Natan (35%)
+- Noa (35%)
 - Arthur (10%)
-- Emmanuel (10%)
+- Emmanuel (20%)
 
 ### Rapport Economique
 - Natan (30%)
