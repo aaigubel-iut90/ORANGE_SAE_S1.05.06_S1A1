@@ -2,11 +2,7 @@ html *{
     font-family:Helvetica, sans-serif,system-ui;
     overflow: scroll;
     overflow-x: hidden;
-<<<<<<< HEAD
-    
-=======
     color: white;
->>>>>>> bda8b181299fb05b155d8b791d725d840b29c0e9
   }
   ::-webkit-scrollbar{
     display: none;
@@ -21,11 +17,7 @@ html *{
     -ms-overflow-style: none; 
     scrollbar-color: transparent transparent;
     overflow-x: hidden;
-<<<<<<< HEAD
     color: white;
-=======
-  
->>>>>>> bda8b181299fb05b155d8b791d725d840b29c0e9
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("../images/background_finance.jpg");
     background-size: cover;
     background-position: center;
