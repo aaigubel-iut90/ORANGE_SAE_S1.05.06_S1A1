@@ -139,16 +139,18 @@ Screen de test d'éco-coneception :
 ## Répartition du travail
 
 ### README
-- Natan (100%)
+- Natan (80%)
+- Arthur (20%)
 
 ### Planning - diagramme de GANTT
 - Natan (100%)
 
 ### Questionnaire 1
-- Natan (30%)
-- Noa (30%)
-- Arthur (20%)
+- Natan (25%)
+- Noa (25%)
+- Arthur (15%)
 - Emmanuel (20%)
+- Ayoub (5%)
 
 ### Questionnaire 2
 - Natan (40%)
@@ -157,10 +159,10 @@ Screen de test d'éco-coneception :
 - Emmanuel (10%)
 
 ### Rapport Economique
-- Natan (40%)
-- Noa (40%)
-- Arthur (10%)
-- Emmanuel (10%)
+- Natan (30%)
+- Noa (30%)
+- Arthur (15%)
+- Emmanuel (15%)
 
 ### Traduction du site
 - Noa (70%)
@@ -171,7 +173,8 @@ Screen de test d'éco-coneception :
 - Arthur (50%)
 
 ### Barre de navigation du site
-- Natan (100%)
+- Natan (90%)
+- Noa (10%)
 
 ### Page d'accueil
 - Natan (70%)
