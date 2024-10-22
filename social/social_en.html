@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social</title>
+    <link rel="stylesheet" href="social.css">
+    <link rel="icon" href="../favicon.ico">
+
+</head>
+<body>
+    <nav>
+        <div class="lien_nav">
+        <a href="../index_en.html"><img width="50px" src="../images/orange-svgrepo-com.svg" alt=""></a>
+        <a href="../offres/offres_en.html">Offers</a>
+        <a href="../histoire/histoire_en.html">History</a>
+        <a href="../ecologie/ecologie_en.html">Ecology</a>
+        <a href="../economie/economie_en.html">Economy</a>
+        <a href="../social/social_en.html">Social</a>
+            <div class="boutton_en">
+                <a href="../social/social.html">FR / <STrong>EN</STrong></a>
+                </div>    
+        </div>
+</nav>
+    <div class="corps">
+        <div class="photo">
+            <div class="JF">
+                <p class="nom">Jean-François FALLACHER</p>
+                <img src="../images/JF.jfif" alt="Jean-François FALLACHER">
+                <input type="checkbox" id="more-jf" class="checkbox">
+                <label for="more-jf" class="savoir">Learn more</label>
+                <div class="plusTexte">
+                    <p>Jean-François Fallacher has had a long career at Orange, leading subsidiaries in several countries before being appointed CEO in 2023.</p>
+                </div>
+            </div>
+            <div class="ET">
+                <p>Elizabeth TCHOUNGUI</p>
+                <img src="../images/ET.jpg" alt="Elizabeth TCHOUNGUI">
+                <input type="checkbox" id="more-et" class="checkbox">
+                <label for="more-et" class="savoir">Learn more</label>
+                <div class="plusTexte">
+                    <p>Elizabeth Tchoungui has been the Executive Director in charge of Corporate Social Responsibility and Environmental Responsibility since 2023.</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="texte-1">
+            <p>The founder of France Telecom is unknown and has remained anonymous. However, on 1 January 1991, Marcel Roulet was appointed as the first Chairman.
+            </div>
+        
+    
+        <div class="texte-2">
+            <p>The company has 136,000 employees, but only 30% are women.However, Orange has policies in favour of equality equality and is trying to increase the representation of women, particularly in management positions.
+                </div>
+    
+        <div class="texte-3">
+            <p>Orange maintains a constant social dialogue with unions, holding regular collective negotiations on topics such as working conditions and internal reforms. This approach ensures a respectful and balanced work environment, enhancing transparency and employee well-being.</p>
+        </div>
+    
+        <div class="texte-4">
+            <p>Orange encourages its employees to participate in volunteer projects, notably through the Orange Foundation. Skills-based volunteering allows employees to use their professional skills for social causes, such as digital education and supporting underprivileged communities.</p>
+        </div>
+        <div class="texte-5">
+            <p>Orange implements mental and physical support programs for its employees, including stress management services and psychological consultations. The company also offers sports and ergonomic activities to promote a healthy and balanced work environment.</p>
+        </div>
+    </div>
+    
+
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col">
+                <h4>More from our site</h4>
+                <ul>
+                    <li><a href="../histoire/histoire_en.html">History</a></li>
+                    <li><a href="../offres/offres_en.html">Offers</li>
+                    <li><a href="../ecologie/ecologie_en.html">Ecology</a></li>
+                    <li><a href="../economie/economie_en.html">Economy</a></li>
+                    <li><a href="../social/social_en.html">Social</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Follow Orange</h4>
+                <div class="social-links">
+                    <a class="fb-logo" href="https://www.facebook.com/Orange.France/">
+                        <img width="40px" src="../images/icons8-facebook.svg" alt="">
+                        </a>
+                    <a class="fb-logo" href="https://x.com/orange">
+                        <img width="40px" src="../images/icons8-twitterx.svg" alt="">
+                        </a>
+                    <a class="fb-logo" href="https://www.instagram.com/orange/">
+                        <img width="40px" src="../images/icons8-instagram.svg" alt="">
+                        </a>
+                    <a class="fb-logo" href="https://fr.linkedin.com/company/orange">
+                        <img width="40px" src="../images/icons8-linkedin.svg" alt="">
+                    </a>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <br>
+    <script>
+       document.addEventListener("DOMContentLoaded", function() {
+  const elements = document.querySelectorAll('.texte-1, .texte-2, .texte-3, .texte-4, .texte-5');
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      } else {
+        entry.target.classList.remove('visible');
+      }
+    });
+  }, {
+    threshold: 0.7 
+  });
+  elements.forEach(element => {
+    element.classList.add('hidden');
+    observer.observe(element);
+  });
+});
+      </script>
+      
+<div class="copyright">
+  <h5>Page made by Bigeard Noa</h5>
+</div>
+</footer>
+
+</body>

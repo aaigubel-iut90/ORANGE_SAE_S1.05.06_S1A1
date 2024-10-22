@@ -1,51 +1,81 @@
 html *{
-    font-family: Arial, Helvetica, sans-serif;
-  }
-  body{
-    margin: 0;
-  }
-  nav{
-    text-align: center;
-    padding: 30px;
-    background-color: black;
-    margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html {
+  scrollbar-width: none;
+}
+
+body{
+  margin: 0;
+  background-color: #eae5e5;
+  width: 100%;
+  overflow-x: hidden;
+}
+nav{
+  text-align: center;
+  padding: 40px;
+  background-color: black;
+  
   }
   nav a{
-    margin-right: 5%;
-    text-decoration: none;
-    color: orange;
-    justify-content: space-between;
-    font-size: 20px;
-    overflow: hidden;
+  margin-right: 5%;
+  text-decoration: none;
+  color: orange;
+  justify-content: space-between;
+  font-size: 24px;
+  overflow: hidden;
   }
   nav a img{
     z-index: 100;
     position:absolute;
     margin-left: -50px;
     margin-top: -15px;
+    width: 50px;
   }
   nav a:hover{
-    background-color: grey;
+   background-color: #131313;
+  }
+  .boutton_en {
+    text-align: end;
+    margin-top :-27px;
+    font-size: 24px;
+  }
+  .boutton_fr  {
+    text-align: end;
+    margin-top :-27px;
+    font-size: 24px;
   }
 
-  /*footer*/
+.boutton_en {
+  text-align: end;
+  margin-top :-27px;
+  font-size: 24px;
+}
+.boutton_fr  {
+  text-align: end;
+  margin-top :-27px;
+  font-size: 24px;
+}
+
+
 /* Footer */
 .footer {
   background-color: #f27900;
   padding: 70px 0;
-  width: 100vw; /* Prend 100% de la largeur de l'écran */
-  margin-left: calc(50% - 50vw); /* Centre le footer pour compenser */
+  width: 100%; /* Utilise 100% pour éviter le débordement */
+  margin: 0 auto; /* Centre le footer sans débordement */
+  margin-top: 50px; /* Ajustez cette valeur si nécessaire */
 }
 
 .footer-col {
   width: 25%;
   padding: 0 15px;
-  display: inline-block; /* Permet aux colonnes d'être côte à côte */
-  vertical-align: top; /* Aligne les colonnes en haut */
+  display: inline-block;
+  vertical-align: top;
 }
 
 .footer-col h4 {
-  font-size: 18px;
+  font-size: 18px;  
   color: #ffffff;
   text-transform: capitalize;
   margin-bottom: 35px;
@@ -127,4 +157,170 @@ html *{
   .footer-col {
       width: 100%;
   }
+}
+
+
+.imagep {
+display: flex;  
+top: 0;
+left: 0;
+width: auto;
+height: auto;
+}
+
+.bloc-texte {
+background-color: #fcfafa;
+padding: 10px;
+border-radius: 30px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+text-align: center;
+width: 800px;
+margin: auto;
+
+}
+
+.bloc{
+gap: 20px;
+}
+.intro {
+width: 100%;
+height: 350px;
+background-color: #ffffff;
+margin-bottom: 5%;
+justify-content: left;
+text-align: left;
+flex-direction: column;
+display: flex;
+margin-top: 0%;
+}
+.intro p h2{
+max-width: 400px;
+align-items: left;
+text-align: left;
+flex-direction: column;
+}
+.text {
+width: 50%;
+margin: auto;
+text-align: left;
+text-align: justify;
+}
+
+.hop {
+text-align: center;
+}
+.intro3 {
+width: 100%;
+height: 500px;
+background-color: #ffffff;
+align-items: left;
+text-align: left;
+}
+.text2 {
+text-align: left;
+width: 70%;
+height: 45px;
+font-weight: bold;
+font-size: 25px;
+padding-left: 6%;
+}
+.imagep2 {
+width: 35%;
+height: 420px;
+float:right;
+position: absolute; top: 2050px; right: 170px;
+}
+.intro2 {
+width: 100%;
+background-color: #ffffff;
+padding: 0px;
+text-align: left;
+font-size: 35px;
+padding-left: 6%;
+}
+
+.intro2 p {
+font-size: 1rem;
+}
+.intro4 {
+width: 100%;
+height: 500px;
+background-color: #ffffff;
+padding-top: 0%;
+}
+.pad {
+background-color: #ffffff;
+width: 100%;
+height: 1000px;
+}
+.text3 {
+text-align: left;
+margin-left: 4%;
+font-size: 30px;
+font-weight: bold;  
+}
+.bordure {
+border: #000000 solid 2px;
+margin-top: 20px;  /* Ajuste la distance au-dessus de la barre */
+margin-bottom: 20px;  /* Ajuste la distance en dessous de la barre */
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  margin-top: 7%;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.engagements {
+  display: flex;
+  justify-content: space-around; 
+  width: 100%; 
+  height: 300px;
+}
+
+.engagement {
+  width: 30%;
+}
+
+.engagement span {
+  font-size: 4rem;
+  font-weight: bold;
+  display: block;
+  margin: 0 auto; 
+}
+
+hr {
+  border: none;
+  border-top: 2px solid black;
+  margin: 10px 0;
+}
+
+.engagement p {
+  margin: 0;
+  font-size: 1rem;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.conclu {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Aligne le texte et l'image verticalement si nécessaire */
+}
+
+.conclu img.imagep3 {
+  float: right;
+  margin-left: 20px; /* Espace entre le texte et l'image */
+  margin-right: 20%;
+  margin: top 20px;
+  margin:bottom 20p;
 }
