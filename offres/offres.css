@@ -1,6 +1,6 @@
 html *{
   font-family: Arial, Helvetica, sans-serif;
-  overflow: scroll;
+  overflow: auto;
   overflow-x: hidden;
 }
 ::-webkit-scrollbar {
